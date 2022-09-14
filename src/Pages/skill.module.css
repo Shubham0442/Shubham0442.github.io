@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.Mainskillcontainer{
+    margin-top: 100px;
+    background-color: #e0e5e9;
+    padding-bottom: 100px;
+    padding-top: 80px;
+    display: flex;
+    margin: auto; 
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+
+.Mainskillcontainer > div {
+    height: 600px;
+    /* border: 1px solid; */
+}
+
+.skillcontainer{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    gap: 60px;
+}
+
+.skillcontainer > div > img{
+    width: 140px; 
+}
+
+.Mainskillcontainer > div > h2{
+    font-weight: 700;
+    font-size: 30px;
+    color: #ff6263;
+    margin-bottom: 20px;
+}
+  
+
+.skillcontainer > div{
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    padding: 10px; 
+    border-radius: 5px;
+}
+
+/* .softSkillDiv > div > h3{
+    font-weight: 660;
+    color:rgb(49, 83, 187);
+    font-size: 20px;
+    margin-bottom: 40px;
+   
+}
+
+.softSkillInnerDiv{
+    margin: auto;
+    text-align: left;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}  */
+
+
+@media screen and (max-width: 750px) and (min-width: 450px){
+
+    .Mainskillcontainer{
+        margin-top: 100px;
+        background-color: #e0e5e9;
+        padding-bottom: 100px;
+        padding-top: 80px;
+        display: flex;
+        margin: auto; 
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .skillcontainer{
+        width: 80%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto;
+        margin-top: 50px;
+        gap: 20px;
+    }
+
+    .skillcontainer > div > img{
+        width: 90px;
+    }
+
+    /* .softSkillDiv > div {
+        margin-top: 50px;
+    } */
+
+    .Mainskillcontainer > div > h2{
+        font-weight: 700;
+        font-size: 25px;
+        color: #ff6263;
+        margin-bottom: 20px;
+    }
+
+    /* .softSkillDiv > div > h3{
+        font-weight: 660;
+        color:rgb(49, 83, 187);
+        font-size: 15px;
+       
+    } */
+    
+}
+
+@media screen and (max-width: 450px) and (min-width: 70px){
+
+    .Mainskillcontainer{
+        background-color: #e0e5e9;
+        display: flex;
+        flex-direction: column;
+        margin: auto; 
+        margin-top: 400px;
+    }
+
+    .skillcontainer{
+        width: 80%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        gap: 20px;
+    }
+
+    .skillcontainer > div > img{
+        width: 90px;
+    }
+
+    /* .softSkillInnerDiv{
+        margin: auto;
+        text-align: left;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }  */
+    .Mainskillcontainer > div {
+        /* border: 1px solid red ; */
+        height: 450px;
+    }
+
+    /* .softSkillDiv{
+        margin-top: 50px;
+    }
+
+    .softSkillDiv > div > h3{
+        font-weight: 660;
+        color:rgb(49, 83, 187);
+        font-size: 18px;
+        margin-bottom: 10px;  
+    } */
+}

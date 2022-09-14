@@ -1,0 +1,147 @@
+
+.Maincontainer{
+    width: 100%;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    background-color: #e0e5e9;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 60px;
+    
+} 
+
+.Maincontainer > div >img{
+     width: 400px;
+}
+
+.Maincontainer > div{
+    text-align: left;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.Maincontainer > div > h1{
+    color: #ff6263;
+    font-size: 40px;
+}
+
+.Maincontainer > div > p{
+    color:teal;
+    font-size: 25px;
+} 
+
+.ContactSocilDiv > a > div > img{
+        width: 25px;
+        height: 25px;
+}
+
+.Maincontainer > div > h3{
+    margin-top: 30px;
+    font-size: 15px;
+    color: crimson;
+}
+
+.ContactSocilDiv{
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 750px) and (min-width: 450px){
+    .Maincontainer{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #e0e5e9;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        gap: 5px;
+        margin-top: 60px;
+    } 
+
+    .Maincontainer > div >img{
+        width: 300px;
+   }
+   
+   .Maincontainer > div{
+       text-align: left;
+       font-size: 20px;
+       font-weight: 600;
+   }
+   
+   .Maincontainer > div > h1{
+       color: #ff6263;
+       font-size: 18px;
+   }
+   
+   .Maincontainer > div > p{
+       color: teal;
+       font-size: 15px;
+   } 
+
+   .Maincontainer > div > h3{
+    margin-top: 10px;
+    font-size: 15px;
+    color: crimson;
+  }
+
+  .ContactSocilDiv{
+    display: flex;
+    gap: 20px;
+    margin-top: 5px;
+}
+}
+
+@media screen and (max-width: 450px) and (min-width: 70px){
+    .Maincontainer{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #e0e5e9;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        gap: 5px;
+        margin-top: 60px;
+    } 
+
+    .Maincontainer > div >img{
+        width: 250px;
+        /* border: 1px solid; */
+   }
+   
+   .Maincontainer > div{
+       text-align: left;
+       font-size: 20px;
+       font-weight: 700;
+   }
+
+   .ContactSocilDiv{
+    display: flex;
+    gap: 20px;
+    margin-top: 5px;
+}
+   
+   .Maincontainer > div > h1{
+       color: #ff6263;
+       font-size: 18px;
+   }
+   
+   .Maincontainer > div > p{
+       color: teal;
+       font-size: 15px;
+       margin-bottom: 50px;
+   } 
+
+   .Maincontainer > div > h3{
+    margin-top: -30px;
+    font-size: 15px;
+    color: crimson;
+  }
+}
+

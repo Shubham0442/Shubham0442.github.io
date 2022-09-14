@@ -1,0 +1,118 @@
+
+
+.aboutContainerDiv{
+    width: 100%;
+    height: 600px;
+    margin: auto;
+    background-color:  #e0e5e9;
+    
+} 
+
+.aboutDataContainer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.aboutText{
+    text-align: left;
+    width: 70%;
+}
+
+
+.aboutText > h2{
+    font-size: 25px;
+    font-weight: 650;
+}
+
+.aboutText > h3{
+    font-size: 21px;
+    font-weight: 650;
+    color:darkgoldenrod;
+}
+
+.aboutImageDiv{
+    width: 30%;
+}
+
+.aboutText > p{
+    font-weight: 500;
+    
+}
+
+
+.aboutHeadingDiv{
+    font-weight: 700;
+    font-size: 30px;
+    color: #ff6263;
+    margin-bottom: 20px;
+    margin-top: 20px;
+} 
+
+@media screen and (max-width: 750px) and (min-width: 450px){
+    .aboutContainerDiv{
+        width: 100%;
+        height: 500px;
+        margin: auto;
+        background-color:  #e0e5e9;
+    } 
+
+    .aboutDataContainer{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .aboutText > p{
+        font-weight: 500;
+        font-size: 12px;
+    }
+
+    .aboutText > h2{
+        font-size: 27px;
+        font-weight: 650;
+    }
+}
+
+@media screen and (max-width: 450px) and (min-width: 70px){
+    .aboutContainerDiv{
+        width: 100%;
+        height: 500px;
+        margin: auto;
+        background-color:  #e0e5e9;
+    } 
+
+    .aboutDataContainer{
+        width: 95%;
+        margin: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .aboutText > p{
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    .aboutText > h2{
+        font-size: 18px;
+        font-weight: 650;
+    }
+
+    .aboutText > h3{
+        font-size: 15px;
+        font-weight: 650;
+        color:darkgoldenrod;
+    }
+}
