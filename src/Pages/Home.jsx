@@ -38,7 +38,7 @@ const Home = () => {
                     </div>
                   </a>
                 </div>
-                <a href="https://drive.google.com/file/d/1PBrAU6VbttQgoC25OlqfmhU8uABQuM0H/view?usp=sharing" target={"_blank"}>
+                <a href="/Shubham_Rakhonde_Resume.pdf" download >
                    <Button bg={"#3470e4"} color="white" size='sm'>Resume</Button>
                 </a>
             </div>
