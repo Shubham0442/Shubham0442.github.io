@@ -74,11 +74,11 @@ const Navbar = ({homeRef, skillRef, projectsRef, contactRef, aboutRef}) => {
                         ({ isActive }) =>
                          isActive ? styles.activeStyle : styles.inactiveStyle
                     }
-                      to="/projects"
+                      to="/about"
                       
-                      onClick = {()=>{handleScroll(projectsRef.current)}}
+                      onClick = {()=>{handleScroll(aboutRef.current)}}
                       >
-                     Projects
+                     About
                     </NavLink>
                     <NavLink 
                      className={
@@ -96,11 +96,11 @@ const Navbar = ({homeRef, skillRef, projectsRef, contactRef, aboutRef}) => {
                         ({ isActive }) =>
                          isActive ? styles.activeStyle : styles.inactiveStyle
                     }
-                      to="/about"
+                      to="/projects"
                       
-                      onClick = {()=>{handleScroll(aboutRef.current)}}
+                      onClick = {()=>{handleScroll(projectsRef.current)}}
                       >
-                     About
+                     Projects
                     </NavLink>
                     <NavLink 
                      className={
@@ -128,19 +128,18 @@ const Navbar = ({homeRef, skillRef, projectsRef, contactRef, aboutRef}) => {
                                     <Link to="/" onClick = {()=>{handleScroll(homeRef.current)}}>
                                         <MenuItem fontWeight="550">Home</MenuItem>
                                     </Link>
-                                    <Link to="/project"  onClick = {()=>{handleScroll(projectsRef.current)}}>
-                                        <MenuItem fontWeight="550">Project</MenuItem>
+                                    <Link to="/about" onClick = {()=>{handleScroll(aboutRef.current)}}>
+                                        <MenuItem fontWeight="550">About</MenuItem>
                                     </Link>
-                                    
                                     <Link to="/skill" onClick = {()=>{handleScroll(skillRef.current)}}>
                                         <MenuItem fontWeight="550">Skills</MenuItem>
+                                    </Link>
+                                    <Link to="/project"  onClick = {()=>{handleScroll(projectsRef.current)}}>
+                                        <MenuItem fontWeight="550">Projects</MenuItem>
                                     </Link> 
                                     <Link to="/contact" onClick = {()=>{handleScroll(contactRef.current)}}>
                                         <MenuItem fontWeight="550">Contact</MenuItem>
                                     </Link> 
-                                    <Link to="/about" onClick = {()=>{handleScroll(aboutRef.current)}}>
-                                        <MenuItem fontWeight="550">About</MenuItem>
-                                    </Link>
                         </MenuList>
                     </Menu>
             </div>

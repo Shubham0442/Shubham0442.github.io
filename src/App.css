@@ -45,7 +45,7 @@
 }
 
 .App > .item-containerProject{
-  height: 1000px;
+  height: 1350px;
   width: 100%;
   margin: auto;
 }
@@ -57,7 +57,7 @@
 }
 
 .App> .item-containerSkill{
-    height: 1000px;
+    height: 1100px;
     width: 100%;
     margin: auto;
 }
