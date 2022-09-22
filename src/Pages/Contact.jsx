@@ -41,7 +41,9 @@ const Contact = () => {
           <h4>Reach out and let's work together on something exciting.</h4>
           <div>
             <div className={style.contactIconsDiv}>
+            <a href="mailto:shubhammrakhonde@gmail.com" target={"_blank"}>
               <FaEnvelope color="#ff6263" size={"40px"} className={style.MainContactIcon}/>
+              </a>
               <div>
                 <a href="mailto:shubhammrakhonde@gmail.com" target={"_blank"}>
                    shubhammrakhonde@gmail.com
@@ -50,7 +52,10 @@ const Contact = () => {
             </div>
 
             <div className={style.contactIconsDiv}>
+            <a href="https://www.linkedin.com/in/shubham-rakhonde-102964166/" target={"_blank"} rel="noopener">
+              
               <FaLinkedin color="#ff6263" size={"40px"} className={style.MainContactIcon}/>
+              </a>
               <div>
                 <a href="https://www.linkedin.com/in/shubham-rakhonde-102964166/" target={"_blank"}>
                   Linked In
@@ -59,7 +64,9 @@ const Contact = () => {
             </div>
 
             <div className={style.contactIconsDiv}>
+            <a href="https://github.com/Shubham0442" target={"_blank"}>
               <FaGithub color="#ff6263" size={"40px"} className={style.MainContactIcon}/>
+              </a>
               <div>
                 <a href="https://github.com/Shubham0442" target={"_blank"}>Github</a>
               </div>
