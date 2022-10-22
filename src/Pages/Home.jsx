@@ -44,7 +44,7 @@ const Home = () => {
                 </a>
             </Box>
             <Box >
-                <Image w={{base:"300px", sm:"350px", md:"400px", lg:"450px"}}  src="/sitePhotos/2022-07-26 (1).png" alt="pic" /> 
+                <Image w={{base:"300px", sm:"350px", md:"400px", lg:"460px"}}  src="/sitePhotos/2022-07-26 (1).png" alt="pic" /> 
             </Box>       
     </Flex>
     
