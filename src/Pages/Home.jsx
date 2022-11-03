@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <Box >
           <Flex w={"100%"} h={"600px"} m={"auto"} flexDirection={{base:"column-reverse", sm:"column-reverse", md:"column-reverse", lg:"row"}} bg={"#e0e5e9"}justifyContent={"center"} alignItems={"center"} gap={{base:"25px"}} mt={{base:"80px", sm:"80px", md:"80px"}}>
-            <Box   w={{base:"280px", sm:"350px", md:"400px", lg:"450px"}} textAlign={"left"}>
+            <Box   w={{base:"250px", sm:"300px", md:"400px", lg:"450px"}}  textAlign={"left"}>
                 <Text color={"#ff6263"} fontSize={{base:"40px", sm:"40px", md:"50px", lg:"55px"}} fontWeight={"700"}>Hi,👋</Text>
                 <Text  fontSize={{ base:"22px", sm:"25px", md:"30px", lg:"35px"}} fontWeight={"700"}>I'm Shubham Rakhonde</Text>
                 <Text color={"#ef234b"} fontSize={{ base:"18px", sm:"18px", md:"23px", lg:"28px"}} fontWeight={"700"}>

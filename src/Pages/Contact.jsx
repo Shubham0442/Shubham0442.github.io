@@ -119,7 +119,7 @@ const Contact = () => {
               ></textarea>
             </div>
             <div className="bnbnbn">
-              <Button size="lg" mt={"10px"} bg={"#ff6263"} type="submit">
+              <Button size="lg" color={"white"} mt={"10px"} bg={"#ff6263"} type="submit">
                 Send message
               </Button>
             </div>

@@ -44,6 +44,18 @@
     font-weight: 600;
     color:black;
     font-size: 18px;
+} 
+
+.btn{
+
+    background-color: teal; 
+    width: 60px;
+    padding: 5px; 
+    border: 0;
+    color: white;
+    font-weight: 550; 
+    font-size: 12px; 
+    border-radius: 5px;
 }
 
 .ProjectDiv > div > img{
@@ -80,7 +92,8 @@
 
 .DeployGitDiv {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
+    align-items: center;
     gap: 10px;
     margin-top: 15px;
 }

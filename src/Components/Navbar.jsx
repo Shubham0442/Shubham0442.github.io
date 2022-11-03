@@ -3,6 +3,7 @@ import React from 'react'
 import { Link, NavLink } from "react-router-dom"
 import styles from "./Navbar.module.css"
 import {HamburgerIcon } from '@chakra-ui/icons'
+import { Box, Text } from "@chakra-ui/react"
 import {
     Menu,
     MenuButton,
@@ -112,7 +113,12 @@ const Navbar = ({homeRef, skillRef, projectsRef, contactRef, aboutRef}) => {
                       onClick = {()=>{handleScroll(contactRef.current)}}
                       >
                      Contact
-                    </NavLink>
+                    </NavLink> 
+                    <Box >
+                            <a href="https://drive.google.com/file/d/1PBrAU6VbttQgoC25OlqfmhU8uABQuM0H/view?usp=sharing" target={"_blank"}>
+                                <Text fontWeight="550">Resume</Text>
+                            </a>
+                    </Box>
                     
           
         </div>
@@ -140,6 +146,11 @@ const Navbar = ({homeRef, skillRef, projectsRef, contactRef, aboutRef}) => {
                                     <Link to="/contact" onClick = {()=>{handleScroll(contactRef.current)}}>
                                         <MenuItem fontWeight="550">Contact</MenuItem>
                                     </Link> 
+                                    <Box >
+                                        <a href="https://drive.google.com/file/d/1PBrAU6VbttQgoC25OlqfmhU8uABQuM0H/view?usp=sharing" target={"_blank"}>
+                                            <MenuItem fontWeight="550">Resume</MenuItem>
+                                        </a>
+                                    </Box>
                         </MenuList>
                     </Menu>
             </div>

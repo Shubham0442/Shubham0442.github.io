@@ -45,19 +45,19 @@
 }
 
 .App > .item-containerProject{
-  height: 1350px;
+  height: 2750px;
   width: 100%;
   margin: auto;
 }
 
 .App >.item-containerContact{
-  height:500px;
+  height:1000px;
   width:100%;
   margin:auto;
 }
 
 .App> .item-containerSkill{
-    height: 1100px;
+    height: 1900px;
     width: 100%;
     margin: auto;
 }

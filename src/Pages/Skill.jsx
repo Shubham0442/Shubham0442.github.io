@@ -7,7 +7,7 @@ const Skill = () => {
   return (
       <Box w={"100%"} m={"auto"} bg={"#e0e5e9"} mt={{base:"430px", sm:"400px", md:"100px", lg:"50px"}}>
              <Text color={"#ff6263"} fontWeight={"660"} fontSize={"25px"} mb={"10px"} pt={"30px"}>Tech-Skills</Text>
-             <SimpleGrid columns={[3, 4, 6]} w={{base:"80%", sm:"75%", md:"70%", lg:"65%"}} m={"auto"} gap={"40px"} alignItems={"center"} justifyContent={"right"} mb={"50px"}>
+             <SimpleGrid columns={[3, 4, 6]} w={{base:"80%", sm:"75%", md:"70%", lg:"65%"}} m={"auto"} gap={"40px"} alignItems={"center"} justifyContent={"center"} mb={"50px"}>
                   <Box 
                        p={{base:"10px", sm:"10px", md:"20px"}} 
                        boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"} borderRadius={"5px"} transition= "all 0.6s"
@@ -114,9 +114,32 @@ const Skill = () => {
                       <Image 
                       w={{base:"100%"}} 
                       _hover={{transform:"scale(1.2)"}} 
-                      src="https://www.svgrepo.com/show/330512/github.svg" alt="github" />
+                      src="https://4008838.fs1.hubspotusercontent-na1.net/hubfs/4008838/mogoose-logo.png" alt="mongoose" />
+                  </Box>
+                  <Box 
+                       p={{base:"15px", sm:"15px", md:"15px"}} 
+                       boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"} borderRadius={"5px"} transition= "all 0.6s" 
+                       >
+                      <Image 
+                      w={{base:"100%"}} 
+                      _hover={{transform:"scale(1.2)"}} 
+                      src="https://res.cloudinary.com/postman/image/upload/t_team_logo/v1629869194/team/2893aede23f01bfcbd2319326bc96a6ed0524eba759745ed6d73405a3a8b67a8" alt="mongoose" />
                   </Box>
              </SimpleGrid>
+             <Text  color={"#ff6263"} mb={"30px"} fontWeight={"550"} fontSize={"25px"}>Git-Hub Statistics</Text>
+             <Flex w={{base: "80%",sm:"75%", md:"75%", lg:"56%"}} margin={"auto"} mt={"50px"} fontWeight={"550"} gap={"10px"} fontSize={{base:"8px", sm:"10px", md:"14px"}} mb={"50px"} flexDirection={{base: "column", sm:"column",md: "row", lg:"row"}} justifyContent={"space-evenly"}>
+                  <Box w={{ base: "100%", sm: "100%", md:"50%"}} >
+                    <Image w={"100%"}   src={"https://github-readme-stats.vercel.app/api?username=Shubham0442&show_icons=true&include_all_commits=true&count_private=true&hide=issues,contribs&border_radius=0&locale=en"}/>
+                  </Box>
+                  <Box w={{ base: "100%", sm: "100%", md:"50%"}} >
+                       <Image w={"100%"} src={"https://github-readme-stats.vercel.app/api/top-langs/?username=Shubham0442&layout=compact&hide=Shell&border_radius=0"}/>
+                  </Box>
+             </Flex>
+              <Box w={{base: "80%",sm:"75%", md:"75%", lg:"56%"}} margin={"auto"} mt={"50px"} fontWeight={"550"} fontSize={{base:"8px", sm:"10px", md:"14px"}} mb={"50px"}>
+                      <Box >
+                          <Image w={"100%"} h={"200px"} src={"https://github-readme-streak-stats.herokuapp.com/?user=Shubham0442&hide_border=true"}/>
+                      </Box>   
+              </Box>
              <Box w={{base: "90%",sm:"85%", md:"85%", lg:"56%"}} margin={"auto"} mt={"50px"} fontWeight={"550"} fontSize={{base:"8px", sm:"10px", md:"14px"}} mb={"50px"}>
                   <Text  color={"#ff6263"} mb={"30px"} fontWeight={"550"} fontSize={"25px"}>Days I Code</Text>
                   <GitHubCalendar 

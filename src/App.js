@@ -28,7 +28,7 @@ function App() {
       <div className='item-container' ref={homeRef}><Home/></div>
       <div className='item-container' ref={aboutRef}><About/></div>
       <div className='item-containerSkill' ref={skillRef}><Skill/></div>
-      <div className='item-containerProject' ref={projectsRef}><Projects/></div>
+      <div  ref={projectsRef} h={{base:"2200px", sm:"2000px", md:"1800px", lg:"1500px"}}><Projects/></div>
       <div className='item-containerContact' ref={contactRef}><Contact/></div>
     </div>
   );
