@@ -7,7 +7,7 @@ const Skill = () => {
   return (
       <Box w={"100%"} m={"auto"} bg={"#e0e5e9"} mt={{base:"430px", sm:"400px", md:"100px", lg:"50px"}}>
              <Text color={"#ff6263"} fontWeight={"660"} fontSize={"25px"} mb={"10px"} pt={"30px"}>Tech-Skills</Text>
-             <SimpleGrid columns={[3, 4, 6]} w={{base:"80%", sm:"75%", md:"70%", lg:"65%"}} m={"auto"} gap={"40px"} alignItems={"center"} justifyContent={"center"} mb={"50px"}>
+             <SimpleGrid columns={[3, 4, 6]} w={{base:"80%", sm:"85%", md:"80%", lg:"65%"}} m={"auto"} gap={"40px"} alignItems={"center"} justifyContent={"center"} mb={"50px"}>
                   <Box 
                        p={{base:"10px", sm:"10px", md:"20px"}} 
                        boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"} borderRadius={"5px"} transition= "all 0.6s"

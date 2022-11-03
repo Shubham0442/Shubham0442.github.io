@@ -25,7 +25,7 @@ const About = () => {
                   }}
                 />
               </Text>
-              <Text fontSize={{ base:"14px"}} fontWeight={"500"}>Has imparted his frontend and backend techanical skill during the construct week at Masai School while working in collaborative projects. Problem solving mindset with committed to shared goals and highly believed in team work. Having keen interest for developing the dynamic web applications.</Text>
+              <Text fontSize={{ base:"14px", sm:"15px", md:"16.5", lg:"17.5px"}} fontWeight={"500"}>Has imparted his frontend and backend techanical skill during the construct week at Masai School while working in collaborative projects. Problem solving mindset with committed to shared goals and highly believed in team work. Having keen interest for developing the dynamic web applications. Ambitious and hardworking individual, looking forward to work in the software industry to demonstrate skills and enhance capabilities.</Text>
             </Box>
         </Box>
     </Box>
