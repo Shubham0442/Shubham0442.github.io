@@ -10,15 +10,15 @@ const Projects = () => {
       <Text fontSize={"18px"} fontWeight={"650"} color={"#ef234b"} mb={"20px"}>-What I Built-</Text>
       <SimpleGrid columns={[1, 1, 2, 2]} w={{base:"90%", sm:"90%", md:"90%", lg:"80%"}} m={"auto"} gap={"40px"} alignItems={"center"} justifyContent={"center"} mb={"50px"}>
             <Box bg={"white"} boxShadow={"rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"} borderRadius={"8px"} >
-              <Box position={"relative"} overflow={"hidden"}>
+              <Box overflow={"hidden"} _hover={{borderTopLeftRadius:"8px", borderTopRightRadius:"8px"}} >
                      <Image src="/sitePhotos/shoesformen.png" alt="project" w={"100%"} borderTopLeftRadius={"8px"} borderTopRightRadius={"8px"} objectFit={"contain"} 
                              transition={"all 0.5s"}
-                             _hover={{"transform":"scale(1.1)", transition: "all 0.5s"}}
+                             _hover={{"transform":"scale(1.1)", transition: "all 0.5s", borderTopLeftRadius:"8px", borderTopRightRadius:"8px"}} 
                              display={"block"}/>
               </Box>
               <Box p={"10px"}>
                 <Text fontSize={{base:"15px", sm:"16.5px"}} fontWeight={"550"}>Shoes-for-men</Text>
-                <Text fontSize={{base:"10px", sm:"12px"}} fontWeight={"500"}>An e-commerce website consisting different kinds of shoes with admin and user-side functionalities built in five weeks individually.</Text>
+                <Text fontSize={{base:"10px", sm:"12px"}} fontWeight={"500"}>An e-commerce website consisting different kinds of shoes products and has admin and user-side functionalities built in five weeks, individually.</Text>
               </Box>
               <hr />
               <Flex justifyContent={"space-around"}  flexWrap={"wrap"} p={"10px"}>
@@ -49,10 +49,10 @@ const Projects = () => {
               </Flex>
             </Box>
             <Box bg={"white"} boxShadow={"rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"} borderRadius={"8px"}>
-              <Box position={"relative"} overflow={"hidden"}>
+              <Box overflow={"hidden"} _hover={{borderTopLeftRadius:"8px", borderTopRightRadius:"8px"}} >
                      <Image src="/sitePhotos/2022-08-19.png" alt="project" w={"100%"} borderTopLeftRadius={"8px"} borderTopRightRadius={"8px"} objectFit={"contain"} 
                              transition={"all 0.5s"}
-                             _hover={{"transform":"scale(1.1)", transition: "all 0.5s"}}
+                             _hover={{"transform":"scale(1.1)", transition: "all 0.5s", borderTopLeftRadius:"8px", borderTopRightRadius:"8px"}} 
                              display={"block"}/>
               </Box>
               <Box p={"10px"}>
@@ -88,10 +88,10 @@ const Projects = () => {
               </Flex>
             </Box>
             <Box bg={"white"} boxShadow={"rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"} borderRadius={"8px"}>
-              <Box position={"relative"} overflow={"hidden"}>
+              <Box overflow={"hidden"} _hover={{borderTopLeftRadius:"8px", borderTopRightRadius:"8px"}} >
                    <Image src="/sitePhotos/2022-08-19 (1).png" alt="project" w={"100%"} borderTopLeftRadius={"8px"} borderTopRightRadius={"8px"} objectFit={"contain"} 
                              transition={"all 0.5s"}
-                             _hover={{"transform":"scale(1.1)", transition: "all 0.5s"}}
+                             _hover={{"transform":"scale(1.1)", transition: "all 0.5s", borderTopLeftRadius:"8px", borderTopRightRadius:"8px"}} 
                              display={"block"} />
               </Box>
               <Box p={"10px"}>
@@ -126,15 +126,15 @@ const Projects = () => {
               </Flex>
             </Box>
             <Box bg={"white"} boxShadow={"rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"} borderRadius={"8px"}>
-              <Box position={"relative"} overflow={"hidden"}>
+              <Box overflow={"hidden"} _hover={{borderTopLeftRadius:"8px", borderTopRightRadius:"8px"}} >
                    <Image src="/sitePhotos/2022-08-18.png" alt="project" w={"100%"} borderTopLeftRadius={"8px"} borderTopRightRadius={"8px"} objectFit={"contain"} 
                              transition={"all 0.5s"}
-                             _hover={{"transform":"scale(1.1)", transition: "all 0.5s"}}
+                             _hover={{"transform":"scale(1.1)", transition: "all 0.5s", borderTopLeftRadius:"8px", borderTopRightRadius:"8px"}} 
                              display={"block"}/>
               </Box>
               <Box p={"10px"}>
                 <Text fontSize={{base:"15px", sm:"16.5px"}} fontWeight={"550"}>Max-fashion-Clone</Text>
-                <Text fontSize={{base:"10px", sm:"12px"}} fontWeight={"500"}>Clone of an e-commerce website maxfashion.in, which has wide range of categories for shopping, built with some of its functionalities, collaboratively.</Text>
+                <Text fontSize={{base:"10px", sm:"12px"}} fontWeight={"500"}>Clone of an e-commerce website maxfashion.in, which has wide range of categories for shopping, built with some of its functionalities, within a week, collaboratively.</Text>
               </Box>
               <hr />
               <Flex justifyContent={"space-around"} flexWrap={"wrap"} p={"10px"} >

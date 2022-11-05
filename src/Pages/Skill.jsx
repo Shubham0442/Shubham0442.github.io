@@ -65,6 +65,24 @@ const Skill = () => {
                   <Box 
                        p={{base:"10px", sm:"10px", md:"20px"}} 
                        boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"} borderRadius={"5px"} transition= "all 0.6s"                       
+                       >
+                      <Image 
+                      w={{base:"100%"}}
+                      _hover={{transform:"scale(1.2)"}} 
+                      src="https://cdn.iconscout.com/icon/free/png-128/npm-3-1175132.png" alt="react rouer dom" />
+                  </Box>
+                  <Box 
+                       p={{base:"10px", sm:"10px", md:"20px"}} 
+                       boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"} borderRadius={"5px"} transition= "all 0.6s"                       
+                       >
+                      <Image 
+                      w={{base:"100%"}}
+                      _hover={{transform:"scale(1.2)"}} 
+                      src="https://brandeps.com/logo-download/R/React-Router-logo-vector-01.svg" alt="react rouer dom" />
+                  </Box>
+                  <Box 
+                       p={{base:"10px", sm:"10px", md:"20px"}} 
+                       boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"} borderRadius={"5px"} transition= "all 0.6s"                       
                        >  
                       <Image 
                       w={{base:"100%"}} 
@@ -99,21 +117,13 @@ const Skill = () => {
                       src="https://www.vectorlogo.zone/logos/expressjs/expressjs-icon.svg" alt="express" />
                   </Box>
                   <Box 
-                       p={{base:"0px", sm:"0px", md:"0px"}} 
-                       boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"} borderRadius={"5px"} transition= "all 0.6s"                         
-                       >
-                      <Image 
-                      w={{base:"100%"}} 
-                      _hover={{transform:"scale(1.2)"}} 
-                      src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-dsc/events/logo-data-structure.png" alt="express" />
-                  </Box>
-                  <Box 
-                       p={{base:"15px", sm:"15px", md:"15px"}} 
+                       p={{base:"10px", sm:"10px", md:"15px"}} 
                        boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"} borderRadius={"5px"} transition= "all 0.6s" 
+                       m={"auto"} textAlign={"center"}
                        >
                       <Image 
-                      w={{base:"100%"}} 
-                      _hover={{transform:"scale(1.2)"}} 
+                      w={{base:"90%"}}
+                      _hover={{transform:"scale(1.2)"}} display={"block"} m={"auto"}
                       src="https://4008838.fs1.hubspotusercontent-na1.net/hubfs/4008838/mogoose-logo.png" alt="mongoose" />
                   </Box>
                   <Box 
@@ -124,6 +134,15 @@ const Skill = () => {
                       w={{base:"100%"}} 
                       _hover={{transform:"scale(1.2)"}} 
                       src="https://res.cloudinary.com/postman/image/upload/t_team_logo/v1629869194/team/2893aede23f01bfcbd2319326bc96a6ed0524eba759745ed6d73405a3a8b67a8" alt="mongoose" />
+                  </Box>
+                  <Box 
+                       p={{base:"0px", sm:"0px", md:"0px"}} 
+                       boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"} borderRadius={"5px"} transition= "all 0.6s"                         
+                       >
+                      <Image 
+                      w={{base:"100%"}} 
+                      _hover={{transform:"scale(1.2)"}} 
+                      src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-dsc/events/logo-data-structure.png" alt="express" />
                   </Box>
              </SimpleGrid>
              <Text  color={"#ff6263"} mb={"30px"} fontWeight={"550"} fontSize={"25px"}>Git-Hub Statistics</Text>

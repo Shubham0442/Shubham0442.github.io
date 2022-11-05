@@ -40,7 +40,7 @@ const Home = () => {
                   </a>
                 </Flex>
                 <a href="/Shubham_Rakhonde_Resume.pdf" download >
-                   <Button bg={"#3470e4"} color="white" size='sm'>Resume</Button>
+                   <button className={style.ResumeBTn} bg={"#3470e4"} color="white" size='sm' >Resume</button>
                 </a>
             </Box>
             <Box >

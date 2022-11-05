@@ -129,6 +129,7 @@ const Navbar = ({homeRef, skillRef, projectsRef, contactRef, aboutRef}) => {
                             aria-label='Options'
                             icon={<HamburgerIcon />}
                             variant='ghost'
+                            fontSize = {{ base: "20px", sm:"22px", md:"25px"}}
                         />
                         <MenuList w="50px" fontSize="15px" className={styles.menuListDiv}>
                                     <Link to="/" onClick = {()=>{handleScroll(homeRef.current)}}>

@@ -122,6 +122,14 @@
       }
 } */
 
+.ResumeBTn{
+   background-color: teal;
+   color: white;
+   font-weight: 550;
+   border-radius: 5px; 
+   padding: 5px 5px 5px 5px;
+}
+
 @media screen and (max-width: 450px) and (min-width: 70px){
     .Maincontainer{
         width: 100%;
@@ -140,6 +148,15 @@
         width: 250px;
         /* border: 1px solid; */
    }
+
+   .ResumeBTn{
+    background-color: teal;
+    color: white;
+    font-weight: 550;
+    font-size: 15px;
+    border-radius: 5px; 
+    padding: 5px 5px 5px 5px;
+   } 
    
    .Maincontainer > div{
        text-align: left;
@@ -169,5 +186,14 @@
     font-size: 15px;
     color: crimson;
   }
+
+  .ResumeBTn{
+    background-color: teal;
+    color: white;
+    font-weight: 550;
+    font-size: 15px;
+    border-radius: 5px; 
+    padding: 5px 5px 5px 5px;
+   } 
 }
 
