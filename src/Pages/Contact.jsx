@@ -58,7 +58,7 @@ const Contact = () => {
               </a>
               <div>
                 <a href="https://www.linkedin.com/in/shubham-rakhonde-102964166/" target={"_blank"}>
-                  Linked In
+                shubham-rakhonde-102964166
                 </a>
               </div>
             </div>
@@ -68,7 +68,7 @@ const Contact = () => {
               <FaGithub color="#ff6263" size={"40px"} className={style.MainContactIcon}/>
               </a>
               <div>
-                <a href="https://github.com/Shubham0442" target={"_blank"}>Github</a>
+                <a href="https://github.com/Shubham0442" target={"_blank"}>Shubham0442</a>
               </div>
             </div>
 
