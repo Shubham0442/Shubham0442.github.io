@@ -78,7 +78,7 @@ const Skill = () => {
                       <Image 
                       w={{base:"100%"}}
                       _hover={{transform:"scale(1.2)"}} 
-                      src="https://brandeps.com/logo-download/R/React-Router-logo-vector-01.svg" alt="react rouer dom" />
+                      src={"https://brandeps.com/logo-download/R/React-Router-logo-vector-01.svg"} alt="react rouer dom" />
                   </Box>
                   <Box 
                        p={{base:"10px", sm:"10px", md:"20px"}} 
