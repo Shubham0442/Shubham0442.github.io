@@ -163,7 +163,7 @@ const Skill = () => {
                   <Text  color={"#ff6263"} mb={"30px"} fontWeight={"550"} fontSize={"25px"}>Days I Code</Text>
                   <GitHubCalendar 
                       username="Shubham0442" 
-                      year={new Date().getFullYear()} 
+                      
                       color={"#ff6263"} 
                       w={"100%"}
                   />
