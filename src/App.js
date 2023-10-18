@@ -1,6 +1,5 @@
 import "./App.css";
 import Navbar from "./Components/Navbar";
-import AllRoutes from "./Components/AllRoutes";
 import { useRef } from "react";
 import Home from "./Pages/Home";
 import Projects from "./Pages/Projects";
@@ -8,6 +7,7 @@ import Contact from "./Pages/Contact";
 import Skill from "./Pages/Skill";
 import About from "./Pages/About";
 import Work from "./Pages/Work";
+import { Box } from "@chakra-ui/react";
 
 function App() {
   const aboutRef = useRef(null);
@@ -33,9 +33,9 @@ function App() {
       <div className="item-container" ref={aboutRef}>
         <About />
       </div>
-      <div className="item-workContact" ref={workRef}>
+      <Box h={{ base: "800px", sm: "700px", md: "750px", lg: "650px" }} ref={workRef}>
         <Work />
-      </div>
+      </Box>
       <div className="item-containerSkill" ref={skillRef}>
         <Skill />
       </div>

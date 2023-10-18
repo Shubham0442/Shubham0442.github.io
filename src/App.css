@@ -38,36 +38,36 @@
   }
 }
 
-.App>.item-container{
-  height:700px;
-  width:100%;
-  margin:auto;
+.App > .item-container {
+  height: 700px;
+  width: 100%;
+  margin: auto;
 }
 
-.App > .item-containerProject{
+.App > .item-containerProject {
   height: 2750px;
   width: 100%;
   margin: auto;
 }
 
-.App >.item-containerContact{
-  height:1000px;
-  width:100%;
-  margin:auto;
+.App > .item-containerContact {
+  height: 1000px;
+  width: 100%;
+  margin: auto;
 }
 
-.App> .item-containerSkill{
-    height: 1900px;
-    width: 100%;
-    margin: auto;
+.App > .item-containerSkill {
+  height: 1900px;
+  width: 100%;
+  margin: auto;
 }
 
-#chakraIcon{
+#chakraIcon {
   width: 50px;
 }
 
 .item-workContact {
-  height: 1900px;
+  height: 650px;
   width: 100%;
   margin: auto;
 }

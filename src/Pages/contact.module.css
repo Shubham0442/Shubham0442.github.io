@@ -1,161 +1,159 @@
+.contactMainContainer {
+  width: 100%;
+  height: 800px;
+  margin: auto;
+  background-color: #e0e5e9;
+}
 
-.contactMainContainer{
+.contactMainContainer > h2 {
+  font-weight: 700;
+  font-size: 30px;
+  color: #ff6263;
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+
+.contactContainer {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.contactContainer > div {
+  height: 460px;
+}
+
+.contactLeftDiv {
+  padding-left: 20px;
+}
+
+.contactLeftDiv > h4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 550;
+}
+
+.contactIconsDiv {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 40px;
+  font-weight: 500;
+  gap: 20px;
+}
+
+.upperBoxInputs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.formRightDiv {
+  padding: 20px;
+}
+
+.formRightDiv > h2 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 550;
+}
+
+.subjectInputDiv {
+  margin-bottom: 20px;
+}
+
+.textAreaDiv textarea {
+  width: 100%;
+}
+
+@media screen and (max-width: 750px) and (min-width: 450px) {
+  .contactContainer {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .contactMainContainer {
     width: 100%;
     height: 800px;
     margin: auto;
     background-color: #e0e5e9;
-}
+  }
 
-.contactMainContainer > h2{
-    font-weight: 700;
-    font-size: 30px;
-    color: #ff6263;
-    margin-bottom: 20px;
-    margin-top: 100px;
-}
+  .contactContainer > div {
+    height: 350px;
+  }
 
-.contactContainer{
-    width: 90%;
-    margin: auto;
-    display: flex; 
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.contactContainer > div{
-    height: 460px;
-}
-
-.contactLeftDiv{
-    padding-left: 20px;
-}
-
-.contactLeftDiv > h4{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 20px;
-    font-weight: 550;
-}
-
-.contactIconsDiv{
+  .contactIconsDiv {
     display: flex;
     justify-content: left;
-    align-items: center; 
-    margin-bottom: 40px; 
-    font-weight: 500;
-    gap: 20px;
-}
-
-.upperBoxInputs{
-    display: flex;
-    gap: 10px;
+    align-items: center;
     margin-bottom: 10px;
-}
+    font-weight: 500;
+    gap: 10px;
+  }
 
-.formRightDiv{
-    padding: 20px;
-}
-
-.formRightDiv > h2{
+  .contactLeftDiv > h4 {
+    margin-top: 20px;
     margin-bottom: 20px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 550;
+  }
+
+  .contactIconsDiv > div {
+    font-size: 15px;
+  }
 }
 
-.subjectInputDiv{
-    margin-bottom: 20px;
-}
+@media screen and (max-width: 450px) and (min-width: 70px) {
+  .contactContainer {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
 
-.textAreaDiv  textarea{
+  .contactMainContainer {
     width: 100%;
-} 
+    height: 800px;
+    margin: auto;
+    background-color: #e0e5e9;
+  }
 
-@media screen and (max-width: 750px) and (min-width: 450px){
-    .contactContainer{
-        width: 90%;
-        margin: auto;
-        display: flex; 
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-    }
+  .contactContainer > div {
+    height: 350px;
+  }
 
-    .contactMainContainer{
-        width: 100%;
-        height: 800px;
-        margin: auto;
-        background-color: #e0e5e9;
-     } 
+  .contactIconsDiv {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 10px;
+    font-weight: 500;
+    gap: 10px;
+  }
 
-    .contactContainer > div{
-        height:350px; 
-    }
+  .contactIconsDiv > div {
+    font-size: 12px;
+  }
 
-    .contactIconsDiv{
-        display: flex;
-        justify-content: left;
-        align-items: center; 
-        margin-bottom: 10px; 
-        font-weight: 500;
-        gap: 10px;
-    }
-    
-    .contactLeftDiv > h4{
-        margin-top: 20px;
-        margin-bottom: 20px;
-        font-size: 18px;
-        font-weight: 550;
-    }
+  .contactLeftDiv > h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 550;
+  }
 
-    .contactIconsDiv > div{
-        font-size: 15px;
-    }
-
-}
-
-@media screen and (max-width: 450px) and (min-width: 70px){
-    .contactContainer{
-        width: 90%;
-        margin: auto;
-        display: flex; 
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-
-    .contactMainContainer{
-        width: 100%;
-        height: 800px;
-        margin: auto;
-        background-color: #e0e5e9;
-     } 
-
-    .contactContainer > div{
-        height:350px; 
-    }
-
-    .contactIconsDiv{
-        display: flex;
-        justify-content: left;
-        align-items: center; 
-        margin-bottom: 10px; 
-        font-weight: 500;
-        gap: 10px;
-    }
-
-    .contactIconsDiv > div{
-        font-size: 12px;
-    }
-
-    .contactLeftDiv > h4{
-        margin-top: 20px;
-        margin-bottom: 20px;
-        font-size: 18px;
-        font-weight: 550;
-    }
-
-    .MainContactIcon{
-        width: 30px;
-        height: 30px;
-    }
+  .MainContactIcon {
+    width: 30px;
+    height: 30px;
+  }
 }

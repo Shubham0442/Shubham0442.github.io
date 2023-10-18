@@ -32,11 +32,11 @@ const Skill = () => {
           p={{ base: "10px", sm: "10px", md: "20px" }}
           boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"}
           borderRadius={"5px"}
-          transition="all 0.6s"
         >
           <Image
             w={{ base: "100%" }}
             _hover={{ transform: "scale(1.2)" }}
+            transition="all 0.6s"
             src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
             alt="pic"
           />
@@ -45,11 +45,11 @@ const Skill = () => {
           p={{ base: "10px", sm: "10px", md: "20px" }}
           boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"}
           borderRadius={"5px"}
-          transition="all 0.6s"
         >
           <Image
             w={{ base: "100%" }}
             _hover={{ transform: "scale(1.2)" }}
+            transition="all 0.6s"
             src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
             alt="pic"
           />
@@ -58,11 +58,11 @@ const Skill = () => {
           p={{ base: "10px", sm: "10px", md: "20px" }}
           boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"}
           borderRadius={"5px"}
-          transition="all 0.6s"
         >
           <Image
             w={{ base: "100%" }}
             _hover={{ transform: "scale(1.2)" }}
+            transition="all 0.6s"
             src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
             alt="pic"
           />
@@ -71,11 +71,11 @@ const Skill = () => {
           p={{ base: "10px", sm: "10px", md: "20px" }}
           boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"}
           borderRadius={"5px"}
-          transition="all 0.6s"
         >
           <Image
             w={{ base: "100%" }}
             _hover={{ transform: "scale(1.2)" }}
+            transition="all 0.6s"
             src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
             alt="pic"
           />
@@ -84,11 +84,11 @@ const Skill = () => {
           p={{ base: "10px", sm: "10px", md: "20px" }}
           boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"}
           borderRadius={"5px"}
-          transition="all 0.6s"
         >
           <Image
             w={{ base: "100%" }}
             _hover={{ transform: "scale(1.2)" }}
+            transition="all 0.6s"
             src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg"
             alt="pic"
           />
@@ -97,11 +97,11 @@ const Skill = () => {
           p={{ base: "10px", sm: "10px", md: "20px" }}
           boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"}
           borderRadius={"5px"}
-          transition="all 0.6s"
         >
           <Image
             w={{ base: "100%" }}
             _hover={{ transform: "scale(1.2)" }}
+            transition="all 0.6s"
             src="https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667"
             alt="pic"
           />
@@ -110,11 +110,11 @@ const Skill = () => {
           p={{ base: "10px", sm: "10px", md: "20px" }}
           boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"}
           borderRadius={"5px"}
-          transition="all 0.6s"
         >
           <Image
             w={{ base: "100%" }}
             _hover={{ transform: "scale(1.2)" }}
+            transition="all 0.6s"
             src="https://cdn.iconscout.com/icon/free/png-128/npm-3-1175132.png"
             alt="react rouer dom"
           />
@@ -123,14 +123,12 @@ const Skill = () => {
           p={{ base: "10px", sm: "10px", md: "20px" }}
           boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"}
           borderRadius={"5px"}
-          transition="all 0.6s"
         >
           <Image
             w={{ base: "100%" }}
             _hover={{ transform: "scale(1.2)" }}
-            src={
-              "/icons/react-router-dom.svg"
-            }
+            transition="all 0.6s"
+            src={"/icons/react-router-dom.svg"}
             alt="react rouer dom"
           />
         </Box>
@@ -138,11 +136,11 @@ const Skill = () => {
           p={{ base: "10px", sm: "10px", md: "20px" }}
           boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"}
           borderRadius={"5px"}
-          transition="all 0.6s"
         >
           <Image
             w={{ base: "100%" }}
             _hover={{ transform: "scale(1.2)" }}
+            transition="all 0.6s"
             src="https://bestofjs.org/logos/chakra-ui.svg"
             alt="pic"
           />
@@ -151,11 +149,11 @@ const Skill = () => {
           p={{ base: "10px", sm: "10px", md: "20px" }}
           boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"}
           borderRadius={"5px"}
-          transition="all 0.6s"
         >
           <Image
             w={{ base: "100%" }}
             _hover={{ transform: "scale(1.2)" }}
+            transition="all 0.6s"
             src="https://cdn.iconscout.com/icon/free/png-512/free-mongodb-5-1175140.png?f=webp&w=256"
             alt="db"
           />
@@ -164,11 +162,11 @@ const Skill = () => {
           p={{ base: "10px", sm: "10px", md: "20px" }}
           boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"}
           borderRadius={"5px"}
-          transition="all 0.6s"
         >
           <Image
             w={{ base: "100%" }}
             _hover={{ transform: "scale(1.2)" }}
+            transition="all 0.6s"
             src="https://www.svgrepo.com/show/303360/nodejs-logo.svg"
             alt="node"
           />
@@ -177,11 +175,11 @@ const Skill = () => {
           p={{ base: "10px", sm: "10px", md: "20px" }}
           boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"}
           borderRadius={"5px"}
-          transition="all 0.6s"
         >
           <Image
             w={{ base: "100%" }}
             _hover={{ transform: "scale(1.2)" }}
+            transition="all 0.6s"
             src="https://www.vectorlogo.zone/logos/expressjs/expressjs-icon.svg"
             alt="express"
           />
@@ -190,12 +188,12 @@ const Skill = () => {
           p={{ base: "10px", sm: "10px", md: "15px" }}
           boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"}
           borderRadius={"5px"}
-          transition="all 0.6s"
           m={"auto"}
           textAlign={"center"}
         >
           <Image
             w={{ base: "90%" }}
+            transition="all 0.6s"
             _hover={{ transform: "scale(1.2)" }}
             display={"block"}
             m={"auto"}
@@ -207,11 +205,11 @@ const Skill = () => {
           p={{ base: "15px", sm: "15px", md: "15px" }}
           boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"}
           borderRadius={"5px"}
-          transition="all 0.6s"
         >
           <Image
             w={{ base: "100%" }}
             _hover={{ transform: "scale(1.2)" }}
+            transition="all 0.6s"
             src="https://res.cloudinary.com/postman/image/upload/t_team_logo/v1629869194/team/2893aede23f01bfcbd2319326bc96a6ed0524eba759745ed6d73405a3a8b67a8"
             alt="mongoose"
           />
@@ -220,11 +218,11 @@ const Skill = () => {
           p={{ base: "0px", sm: "0px", md: "0px" }}
           boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"}
           borderRadius={"5px"}
-          transition="all 0.6s"
         >
           <Image
             w={{ base: "100%" }}
             _hover={{ transform: "scale(1.2)" }}
+            transition="all 0.6s"
             src="https://cdn.iconscout.com/icon/free/png-512/free-tailwind-css-5285308-4406745.png?f=webp&w=256"
             alt="express"
           />
@@ -233,12 +231,13 @@ const Skill = () => {
           p={{ base: "0px", sm: "0px", md: "0px" }}
           boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"}
           borderRadius={"5px"}
-          transition="all 0.6s"
           h={{ base: "100%" }}
           w={{ base: "100%" }}
           display="flex"
           alignItems={"center"}
-          justifyContent={"center"}
+          justif
+          transition="all 0.6s"
+          yContent={"center"}
         >
           <Image
             w={{ base: "100%" }}
@@ -252,11 +251,11 @@ const Skill = () => {
           p={{ base: "0px", sm: "0px", md: "0px" }}
           boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"}
           borderRadius={"5px"}
-          transition="all 0.6s"
         >
           <Image
             w={{ base: "100%" }}
             _hover={{ transform: "scale(1.2)" }}
+            transition="all 0.6s"
             src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-dsc/events/logo-data-structure.png"
             alt="data-structure"
           />
@@ -265,12 +264,13 @@ const Skill = () => {
           p={{ base: "0px", sm: "0px", md: "0px" }}
           boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"}
           borderRadius={"5px"}
-          transition="all 0.6s"
           h={{ base: "100%" }}
           w={{ base: "100%" }}
           display="flex"
           alignItems={"center"}
-          justifyContent={"center"}
+          justif
+          transition="all 0.6s"
+          yContent={"center"}
         >
           <Image
             h={{ base: "30px", md: "40px", lg: "60px" }}
@@ -290,9 +290,9 @@ const Skill = () => {
         fontWeight={"550"}
         gap={"10px"}
         fontSize={{ base: "8px", sm: "10px", md: "14px" }}
-        mb={"50px"}
+        mb={"20px"}
         flexDirection={{ base: "column", sm: "column", md: "row", lg: "row" }}
-        justifyContent={"space-evenly"}
+        justifyContent="space-around"
       >
         <Box w={{ base: "100%", sm: "100%", md: "50%" }}>
           <Image

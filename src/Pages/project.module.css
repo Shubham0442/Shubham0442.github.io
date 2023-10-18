@@ -1,161 +1,156 @@
-
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
-.mainProjectDiv{
-    width: 100%;
-    margin: auto;
-    background-color: #e0e5e9;
-    padding-bottom: 100px;
-    padding-top: 80px;
-} 
-
-.mainProjectDivTitle{
-    font-weight: 700;
-    font-size: 30px;
-    color: #ff6263;
-    margin-bottom: 20px;
-}
-.mainProjectDivTitle + h4{
-    font-weight: 700;
-    font-size: 18px;
-    color:#6d535e; 
-    margin-bottom: 10px;
+.mainProjectDiv {
+  width: 100%;
+  margin: auto;
+  background-color: #e0e5e9;
+  padding-bottom: 100px;
+  padding-top: 80px;
 }
 
-.ProjectDiv{
-    width: 90%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
-    gap: 20px;
+.mainProjectDivTitle {
+  font-weight: 700;
+  font-size: 30px;
+  color: #ff6263;
+  margin-bottom: 20px;
+}
+.mainProjectDivTitle + h4 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #6d535e;
+  margin-bottom: 10px;
 }
 
-.ProjectDiv > div{
-   /* border: 2px solid black; */
-   background-color: white;
-   border-radius: 10px; 
-   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+.ProjectDiv {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 20px;
 }
 
-.ProjectDiv > div > div >h2{
-    font-weight: 600;
-    color:black;
-    font-size: 18px;
-} 
-
-.btn{
-
-    background-color: teal; 
-    width: 60px;
-    padding: 5px; 
-    border: 0;
-    color: white;
-    font-weight: 550; 
-    font-size: 12px; 
-    border-radius: 5px;
+.ProjectDiv > div {
+  /* border: 2px solid black; */
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-
-.ProjectDiv > div > img{
-    width: 100%;
-    margin-top: 10px;
-
+.ProjectDiv > div > div > h2 {
+  font-weight: 600;
+  color: black;
+  font-size: 18px;
 }
 
-.ProjectDiv > div > div > p{
-    font-weight: 490;
-    color:black;
-    font-size: 13.5px;
-    margin-bottom: 0px;
-    text-align: left;
+.btn {
+  background-color: teal;
+  width: 60px;
+  padding: 5px;
+  border: 0;
+  color: white;
+  font-weight: 550;
+  font-size: 12px;
+  border-radius: 5px;
 }
 
-.ProjectDiv > div > div{
-    padding: 10px;
+.ProjectDiv > div > img {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.ProjectDiv > div > div > p {
+  font-weight: 490;
+  color: black;
+  font-size: 13.5px;
+  margin-bottom: 0px;
+  text-align: left;
+}
+
+.ProjectDiv > div > div {
+  padding: 10px;
 }
 
 .techStackDiv {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-bottom: 5x;
-    margin-top: 5px;
-    justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 5x;
+  margin-top: 5px;
+  justify-content: space-around;
 }
 
-.techStackDiv > img{
-    width: 25px;
-    height: 25px;
+.techStackDiv > img {
+  width: 25px;
+  height: 25px;
 }
 
 .DeployGitDiv {
-    display: flex;
-    flex-wrap: wrap; 
-    align-items: center;
-    gap: 10px;
-    margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
 }
 
-.DeployGitDiv > a > div > img{
-   width: 22px;
-   height: 22px;
+.DeployGitDiv > a > div > img {
+  width: 22px;
+  height: 22px;
 }
 
-.ProjectDiv > div > hr{
+.ProjectDiv > div > hr {
+  width: 90%;
+  margin: auto;
+}
+
+@media screen and (max-width: 750px) and (min-width: 450px) {
+  .mainProjectDiv {
+    width: 100%;
+    margin: auto;
+    background-color: #e0e5e9;
+    padding-bottom: 550px;
+    padding-top: 50px;
+  }
+
+  .ProjectDiv {
     width: 90%;
     margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+  }
 }
 
-@media screen and (max-width: 750px) and (min-width: 450px){
-    .mainProjectDiv{
-        width: 100%;
-        margin: auto;
-        background-color: #e0e5e9;
-        padding-bottom: 550px;
-        padding-top: 50px;
-    } 
+@media screen and (max-width: 450px) and (min-width: 70px) {
+  .mainProjectDiv {
+    width: 100%;
+    margin: auto;
+    background-color: #e0e5e9;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
 
-    .ProjectDiv{
-        width: 90%;
-        margin: auto;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: auto;
-        gap: 20px;
-    }
+  .ProjectDiv {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+  }
 
-}
+  .ProjectDiv > div > div > h2 {
+    font-weight: 660;
+    color: black;
+    font-size: 15px;
+  }
 
-@media screen and (max-width: 450px) and (min-width: 70px){
-    .mainProjectDiv{
-        width: 100%;
-        margin: auto;
-        background-color: #e0e5e9;
-        padding-bottom: 50px;
-        padding-top: 50px;
-    } 
-
-    .ProjectDiv{
-        width: 90%;
-        margin: auto;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: auto;
-        gap: 20px;
-    }
-
-    .ProjectDiv > div > div >h2{
-        font-weight: 660;
-        color:black;
-        font-size: 15px;
-    }
-    
-    .ProjectDiv > div > div > p{
-        font-weight: 470;
-        color:black;
-        font-size: 12.5px;
-    }
+  .ProjectDiv > div > div > p {
+    font-weight: 470;
+    color: black;
+    font-size: 12.5px;
+  }
 }
