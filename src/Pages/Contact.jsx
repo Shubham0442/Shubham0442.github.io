@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import emailjs from '@emailjs/browser';
+import emailjs from "@emailjs/browser";
 import style from "./contact.module.css";
 import { Button, Input } from "@chakra-ui/react";
 import { FaEnvelope, FaLinkedin, FaGithub } from "react-icons/fa";
@@ -41,39 +41,72 @@ const Contact = () => {
           <h4>Reach out and let's work together on something exciting.</h4>
           <div>
             <div className={style.contactIconsDiv}>
-            <a href="mailto:shubhammrakhonde@gmail.com" target={"_blank"}>
-              <FaEnvelope color="#ff6263" size={"40px"} className={style.MainContactIcon}/>
+              <a
+                href="mailto:shubhammrakhonde@gmail.com"
+                target={"_blank"}
+                rel="noreferrer"
+              >
+                <FaEnvelope
+                  color="#ff6263"
+                  size={"40px"}
+                  className={style.MainContactIcon}
+                />
               </a>
               <div>
-                <a href="mailto:shubhammrakhonde@gmail.com" target={"_blank"}>
-                   shubhammrakhonde@gmail.com
+                <a
+                  href="mailto:shubhammrakhonde@gmail.com"
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  shubhammrakhonde@gmail.com
                 </a>
               </div>
             </div>
 
             <div className={style.contactIconsDiv}>
-            <a href="https://www.linkedin.com/in/shubham-rakhonde-102964166/" target={"_blank"} rel="noopener">
-              
-              <FaLinkedin color="#ff6263" size={"40px"} className={style.MainContactIcon}/>
+              <a
+                href="https://www.linkedin.com/in/shubham-rakhonde-102964166/"
+                target={"_blank"}
+                rel="noreferrer"
+              >
+                <FaLinkedin
+                  color="#ff6263"
+                  size={"40px"}
+                  className={style.MainContactIcon}
+                />
               </a>
               <div>
-                <a href="https://www.linkedin.com/in/shubham-rakhonde-102964166/" target={"_blank"}>
-                shubham-rakhonde-102964166
+                <a
+                  href="https://www.linkedin.com/in/shubham-rakhonde-102964166/"
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  shubham-rakhonde-102964166
                 </a>
               </div>
             </div>
 
             <div className={style.contactIconsDiv}>
-            <a href="https://github.com/Shubham0442" target={"_blank"}>
-              <FaGithub color="#ff6263" size={"40px"} className={style.MainContactIcon}/>
+              <a href="https://github.com/Shubham0442" target={"_blank"} rel="noreferrer">
+                <FaGithub
+                  color="#ff6263"
+                  size={"40px"}
+                  className={style.MainContactIcon}
+                />
               </a>
               <div>
-                <a href="https://github.com/Shubham0442" target={"_blank"}>Shubham0442</a>
+                <a href="https://github.com/Shubham0442" target={"_blank"} rel="noreferrer">
+                  Shubham0442
+                </a>
               </div>
             </div>
 
             <div className={style.contactIconsDiv}>
-              <MdCall color="#ff6263" size={"40px"} className={style.MainContactIcon}/>
+              <MdCall
+                color="#ff6263"
+                size={"40px"}
+                className={style.MainContactIcon}
+              />
               <div>+91 8390601936</div>
             </div>
           </div>
@@ -88,21 +121,27 @@ const Contact = () => {
                   type="text"
                   name="user_name"
                   placeholder="Name"
-                  variant="outline" 
+                  variant="outline"
                   bg="white"
                   required
                 />
               </div>
               <div className="input-email">
-                <Input type="email" name="email" variant="outline" 
-                bg="white" placeholder="Email" required />
+                <Input
+                  type="email"
+                  name="email"
+                  variant="outline"
+                  bg="white"
+                  placeholder="Email"
+                  required
+                />
               </div>
             </div>
 
             <div className={style.subjectInputDiv}>
               <Input
                 type="text"
-                variant="outline" 
+                variant="outline"
                 bg="white"
                 name="subject"
                 placeholder="Subject"
@@ -119,7 +158,13 @@ const Contact = () => {
               ></textarea>
             </div>
             <div className="bnbnbn">
-              <Button size="lg" color={"white"} mt={"10px"} bg={"#ff6263"} type="submit">
+              <Button
+                size="lg"
+                color={"white"}
+                mt={"10px"}
+                bg={"#ff6263"}
+                type="submit"
+              >
                 Send message
               </Button>
             </div>
