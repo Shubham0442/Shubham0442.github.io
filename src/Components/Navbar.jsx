@@ -11,27 +11,14 @@ import {
   IconButton
 } from "@chakra-ui/react";
 
-// eslint-disable-next-line
-const links = [
-  {
-    title: "Projects",
-    to: "/projects"
-  },
-  {
-    title: "Contact",
-    to: "/contact"
-  },
-  {
-    title: "Education",
-    to: "/education"
-  },
-  {
-    title: "Skill",
-    to: "/skill"
-  }
-];
-
-const Navbar = ({ homeRef, skillRef, projectsRef, contactRef, aboutRef }) => {
+const Navbar = ({
+  homeRef,
+  skillRef,
+  projectsRef,
+  contactRef,
+  aboutRef,
+  workRef
+}) => {
   const handleScroll = (ref) => {
     window.scrollTo({
       top: ref.offsetTop,
@@ -48,9 +35,7 @@ const Navbar = ({ homeRef, skillRef, projectsRef, contactRef, aboutRef }) => {
           className={({ isActive }) =>
             isActive ? styles.activeStyle : styles.inactiveStyle
           }
-          onClick={() => {
-            handleScroll(homeRef.current);
-          }}
+          onClick={() => handleScroll(homeRef.current)}
         >
           <h1 className={styles.SrDiv}>SR</h1>
         </Link>
@@ -61,9 +46,7 @@ const Navbar = ({ homeRef, skillRef, projectsRef, contactRef, aboutRef }) => {
             isActive ? styles.activeStyle : styles.inactiveStyle
           }
           to="/"
-          onClick={() => {
-            handleScroll(homeRef.current);
-          }}
+          onClick={() => handleScroll(homeRef.current)}
         >
           Home
         </NavLink>
@@ -72,9 +55,7 @@ const Navbar = ({ homeRef, skillRef, projectsRef, contactRef, aboutRef }) => {
             isActive ? styles.activeStyle : styles.inactiveStyle
           }
           to="/about"
-          onClick={() => {
-            handleScroll(aboutRef.current);
-          }}
+          onClick={() => handleScroll(aboutRef.current)}
         >
           About
         </NavLink>
@@ -82,10 +63,17 @@ const Navbar = ({ homeRef, skillRef, projectsRef, contactRef, aboutRef }) => {
           className={({ isActive }) =>
             isActive ? styles.activeStyle : styles.inactiveStyle
           }
+          to="/work"
+          onClick={() => handleScroll(workRef.current)}
+        >
+          Work
+        </NavLink>
+        <NavLink
+          className={({ isActive }) =>
+            isActive ? styles.activeStyle : styles.inactiveStyle
+          }
           to="/skill"
-          onClick={() => {
-            handleScroll(skillRef.current);
-          }}
+          onClick={() => handleScroll(skillRef.current)}
         >
           Skills
         </NavLink>
@@ -94,9 +82,7 @@ const Navbar = ({ homeRef, skillRef, projectsRef, contactRef, aboutRef }) => {
             isActive ? styles.activeStyle : styles.inactiveStyle
           }
           to="/projects"
-          onClick={() => {
-            handleScroll(projectsRef.current);
-          }}
+          onClick={() => handleScroll(projectsRef.current)}
         >
           Projects
         </NavLink>
@@ -105,9 +91,7 @@ const Navbar = ({ homeRef, skillRef, projectsRef, contactRef, aboutRef }) => {
             isActive ? styles.activeStyle : styles.inactiveStyle
           }
           to="/contact"
-          onClick={() => {
-            handleScroll(contactRef.current);
-          }}
+          onClick={() => handleScroll(contactRef.current)}
         >
           Contact
         </NavLink>
@@ -132,43 +116,27 @@ const Navbar = ({ homeRef, skillRef, projectsRef, contactRef, aboutRef }) => {
             fontSize={{ base: "20px", sm: "22px", md: "25px" }}
           />
           <MenuList w="50px" fontSize="15px" className={styles.menuListDiv}>
-            <Link
-              to="/"
-              onClick={() => {
-                handleScroll(homeRef.current);
-              }}
-            >
+            <Link to="/" onClick={() => handleScroll(homeRef.current)}>
               <MenuItem fontWeight="550">Home</MenuItem>
             </Link>
-            <Link
-              to="/about"
-              onClick={() => {
-                handleScroll(aboutRef.current);
-              }}
-            >
+            <Link to="/about" onClick={() => handleScroll(aboutRef.current)}>
               <MenuItem fontWeight="550">About</MenuItem>
             </Link>
-            <Link
-              to="/skill"
-              onClick={() => {
-                handleScroll(skillRef.current);
-              }}
-            >
+            <Link to="/work" onClick={() => handleScroll(workRef.current)}>
+              <MenuItem fontWeight="550">Work</MenuItem>
+            </Link>
+            <Link to="/skill" onClick={() => handleScroll(skillRef.current)}>
               <MenuItem fontWeight="550">Skills</MenuItem>
             </Link>
             <Link
               to="/project"
-              onClick={() => {
-                handleScroll(projectsRef.current);
-              }}
+              onClick={() => handleScroll(projectsRef.current)}
             >
               <MenuItem fontWeight="550">Projects</MenuItem>
             </Link>
             <Link
               to="/contact"
-              onClick={() => {
-                handleScroll(contactRef.current);
-              }}
+              onClick={() => handleScroll(contactRef.current)}
             >
               <MenuItem fontWeight="550">Contact</MenuItem>
             </Link>

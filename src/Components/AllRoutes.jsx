@@ -6,6 +6,7 @@ import Education from '../Pages/Education'
 import Home from '../Pages/Home'
 import Projects from '../Pages/Projects'
 import Skill from '../Pages/Skill'
+import Work from '../Pages/Work'
 
 const AllRoutes = () => {
   return (
@@ -17,6 +18,7 @@ const AllRoutes = () => {
             <Route path='/education' element={<Education/>}></Route>
             <Route path='/skill' element={<Skill/>}></Route>
             <Route path='/about' element={<About/>}></Route>
+            <Route path='/work' element={<Work/>}></Route>
         </Routes>
     </div>
   )
