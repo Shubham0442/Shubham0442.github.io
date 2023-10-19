@@ -224,7 +224,7 @@ const Skill = () => {
             _hover={{ transform: "scale(1.2)" }}
             transition="all 0.6s"
             src="https://cdn.iconscout.com/icon/free/png-512/free-tailwind-css-5285308-4406745.png?f=webp&w=256"
-            alt="express"
+            alt="tailwind"
           />
         </Box>
         <Box
@@ -234,10 +234,9 @@ const Skill = () => {
           h={{ base: "100%" }}
           w={{ base: "100%" }}
           display="flex"
+          justifyContent="center"
           alignItems={"center"}
-          justif
           transition="all 0.6s"
-          yContent={"center"}
         >
           <Image
             w={{ base: "100%" }}
@@ -268,9 +267,8 @@ const Skill = () => {
           w={{ base: "100%" }}
           display="flex"
           alignItems={"center"}
-          justif
+          justifyContent="center"
           transition="all 0.6s"
-          yContent={"center"}
         >
           <Image
             h={{ base: "30px", md: "40px", lg: "60px" }}

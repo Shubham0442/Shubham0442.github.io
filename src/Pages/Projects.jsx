@@ -70,7 +70,7 @@ const Projects = () => {
             </Text>
           </Box>
           <hr />
-          <Flex justifyContent={"space-around"} flexWrap={"wrap"} p={"10px"}>
+          <Flex justifyContent={"space-around"} flexWrap={"wrap"} p={"10px"} >
             <Image
               w={"25px"}
               src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
