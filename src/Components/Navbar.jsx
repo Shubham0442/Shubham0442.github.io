@@ -97,7 +97,7 @@ const Navbar = ({
         </NavLink>
         <Box>
           <a
-            href="https://drive.google.com/file/d/1fY4Praqc8g8Hur83ingN1zfbzHsWOdfJ/view?usp=sharing"
+            href="https://drive.google.com/file/d/1OOgCDMvm4FExOJoJHp6ZKTMCHYGNhaJc/view?usp=sharing"
             target={"_blank"}
             rel="noreferrer"
           >
@@ -142,7 +142,7 @@ const Navbar = ({
             </Link>
             <Box>
               <a
-                href="https://drive.google.com/file/d/1fY4Praqc8g8Hur83ingN1zfbzHsWOdfJ/view?usp=sharing"
+                href="https://drive.google.com/file/d/1OOgCDMvm4FExOJoJHp6ZKTMCHYGNhaJc/view?usp=sharing"
                 target={"_blank"}
                 rel="noreferrer"
               >
