@@ -437,7 +437,7 @@ const Projects = () => {
               </Box>
             </a>
             <a
-              href="https://github.com/J-Prajwal/max-fashion-clone"
+              href="https://github.com/Shubham0442/max-fashion-clone"
               target={"_blank"}
               rel="noreferrer"
             >

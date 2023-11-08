@@ -17,6 +17,8 @@ function App() {
   const homeRef = useRef(null);
   const workRef = useRef(null);
 
+  const scrollRef = useRef("home");
+
   return (
     <div className="App">
       <Navbar
@@ -33,7 +35,10 @@ function App() {
       <div className="item-container" ref={aboutRef}>
         <About />
       </div>
-      <Box h={{ base: "800px", sm: "700px", md: "750px", lg: "650px" }} ref={workRef}>
+      <Box
+        h={{ base: "800px", sm: "700px", md: "750px", lg: "800px" }}
+        ref={workRef}
+      >
         <Work />
       </Box>
       <div className="item-containerSkill" ref={skillRef}>
@@ -41,7 +46,7 @@ function App() {
       </div>
       <div
         ref={projectsRef}
-        h={{ base: "2200px", sm: "2000px", md: "1800px", lg: "1500px" }}
+        h={{ base: "2600px", sm: "2200px", md: "2000px", lg: "1700px" }}
       >
         <Projects />
       </div>

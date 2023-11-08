@@ -20,16 +20,16 @@ const Skill = () => {
         Tech-Skills
       </Text>
       <SimpleGrid
-        columns={[3, 4, 6]}
+        columns={[4, 4, 7]}
         w={{ base: "80%", sm: "85%", md: "80%", lg: "65%" }}
         m={"auto"}
-        gap={"40px"}
+        gap={{ base: "25px", sm: "30px", md: "30px", lg: "40px" }}
         alignItems={"center"}
         justifyContent={"center"}
         mb={"50px"}
       >
         <Box
-          p={{ base: "10px", sm: "10px", md: "20px" }}
+          p={{ base: "10px", sm: "10px", md: "10px", lg: "20px" }}
           boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"}
           borderRadius={"5px"}
         >
@@ -42,7 +42,7 @@ const Skill = () => {
           />
         </Box>
         <Box
-          p={{ base: "10px", sm: "10px", md: "20px" }}
+          p={{ base: "10px", sm: "10px", md: "10px", lg: "20px" }}
           boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"}
           borderRadius={"5px"}
         >
@@ -55,7 +55,7 @@ const Skill = () => {
           />
         </Box>
         <Box
-          p={{ base: "10px", sm: "10px", md: "20px" }}
+          p={{ base: "10px", sm: "10px", md: "10px", lg: "20px" }}
           boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"}
           borderRadius={"5px"}
         >
@@ -68,7 +68,7 @@ const Skill = () => {
           />
         </Box>
         <Box
-          p={{ base: "10px", sm: "10px", md: "20px" }}
+          p={{ base: "10px", sm: "10px", md: "10px", lg: "20px" }}
           boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"}
           borderRadius={"5px"}
         >
@@ -81,7 +81,7 @@ const Skill = () => {
           />
         </Box>
         <Box
-          p={{ base: "10px", sm: "10px", md: "20px" }}
+          p={{ base: "10px", sm: "10px", md: "10px", lg: "20px" }}
           boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"}
           borderRadius={"5px"}
         >
@@ -94,7 +94,7 @@ const Skill = () => {
           />
         </Box>
         <Box
-          p={{ base: "10px", sm: "10px", md: "20px" }}
+          p={{ base: "10px", sm: "10px", md: "10px", lg: "20px" }}
           boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"}
           borderRadius={"5px"}
         >
@@ -107,7 +107,7 @@ const Skill = () => {
           />
         </Box>
         <Box
-          p={{ base: "10px", sm: "10px", md: "20px" }}
+          p={{ base: "10px", sm: "10px", md: "10px", lg: "20px" }}
           boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"}
           borderRadius={"5px"}
         >
@@ -120,7 +120,7 @@ const Skill = () => {
           />
         </Box>
         <Box
-          p={{ base: "10px", sm: "10px", md: "20px" }}
+          p={{ base: "10px", sm: "10px", md: "10px", lg: "20px" }}
           boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"}
           borderRadius={"5px"}
         >
@@ -133,7 +133,7 @@ const Skill = () => {
           />
         </Box>
         <Box
-          p={{ base: "10px", sm: "10px", md: "20px" }}
+          p={{ base: "10px", sm: "10px", md: "10px", lg: "20px" }}
           boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"}
           borderRadius={"5px"}
         >
@@ -146,7 +146,7 @@ const Skill = () => {
           />
         </Box>
         <Box
-          p={{ base: "10px", sm: "10px", md: "20px" }}
+          p={{ base: "10px", sm: "10px", md: "10px", lg: "20px" }}
           boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"}
           borderRadius={"5px"}
         >
@@ -159,7 +159,7 @@ const Skill = () => {
           />
         </Box>
         <Box
-          p={{ base: "10px", sm: "10px", md: "20px" }}
+          p={{ base: "10px", sm: "10px", md: "10px", lg: "20px" }}
           boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"}
           borderRadius={"5px"}
         >
@@ -172,7 +172,7 @@ const Skill = () => {
           />
         </Box>
         <Box
-          p={{ base: "10px", sm: "10px", md: "20px" }}
+          p={{ base: "10px", sm: "10px", md: "10px", lg: "20px" }}
           boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"}
           borderRadius={"5px"}
         >
@@ -215,7 +215,7 @@ const Skill = () => {
           />
         </Box>
         <Box
-          p={{ base: "0px", sm: "0px", md: "0px" }}
+          p={{ base: "10px", sm: "10px", md: "10px", lg: "20px" }}
           boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"}
           borderRadius={"5px"}
         >
@@ -228,7 +228,20 @@ const Skill = () => {
           />
         </Box>
         <Box
-          p={{ base: "0px", sm: "0px", md: "0px" }}
+          p={{ base: "10px", sm: "10px", md: "10px", lg: "20px" }}
+          boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"}
+          borderRadius={"5px"}
+        >
+          <Image
+            w={{ base: "100%" }}
+            _hover={{ transform: "scale(1.2)" }}
+            transition="all 0.6s"
+            src={"/icons/typescript.svg"}
+            alt="react rouer dom"
+          />
+        </Box>
+        <Box
+          p={{ base: "10px", sm: "10px", md: "10px", lg: "20px" }}
           boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"}
           borderRadius={"5px"}
           h={{ base: "100%" }}
@@ -247,7 +260,7 @@ const Skill = () => {
           />
         </Box>
         <Box
-          p={{ base: "0px", sm: "0px", md: "0px" }}
+          p={{ base: "10px", sm: "10px", md: "10px", lg: "20px" }}
           boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"}
           borderRadius={"5px"}
         >
@@ -260,18 +273,18 @@ const Skill = () => {
           />
         </Box>
         <Box
-          p={{ base: "0px", sm: "0px", md: "0px" }}
+          p={{ base: "10px", sm: "10px", md: "10px", lg: "20px" }}
           boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"}
           borderRadius={"5px"}
-          h={{ base: "100%" }}
-          w={{ base: "100%" }}
+          h="100%"
+          w="100%"
           display="flex"
           alignItems={"center"}
           justifyContent="center"
           transition="all 0.6s"
         >
           <Image
-            h={{ base: "30px", md: "40px", lg: "60px" }}
+            h="80%"
             _hover={{ transform: "scale(1.2)" }}
             src="/icons/redux-saga.svg"
             alt="redux-saga"

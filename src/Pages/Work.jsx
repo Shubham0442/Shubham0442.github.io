@@ -28,7 +28,7 @@ const Work = () => {
         Work
       </Text>
       <Box
-        w={{ base: "90%", sm: "80%", md: "70%", lg: "60%" }}
+        w={{ base: "90%", sm: "90%", md: "90%", lg: "75%" }}
         m={"auto"}
         textAlign="center"
       >
@@ -51,7 +51,7 @@ const Work = () => {
               fontSize={{ base: "16px", sm: "16px", md: "18px", lg: "20px" }}
               fontWeight={"500"}
             >
-              Nov 2022 – Present
+              Nov 2022 – Nov 2023
             </Text>
           </Flex>
           <Text
@@ -64,14 +64,13 @@ const Work = () => {
             Tech-Stack used at work:
           </Text>
           <Flex
-            columns={[3, 4, 6]}
-            w={{ base: "90%", sm: "85%", md: "80%", lg: "70%" }}
+            w={{ base: "90%", sm: "80%", md: "80%", lg: "75%" }}
             m={"auto"}
             flexWrap="wrap"
             alignItems={"center"}
             justifyContent={"center"}
             mt="25px"
-            gap="40px"
+            gap={{ base: "20px", sm: "25px", md: "30px", lg: "40px" }}
           >
             <Box
               w={{ base: "60px", sm: "60px", md: "85px", lg: "95px" }}
@@ -83,6 +82,7 @@ const Work = () => {
               display="flex"
               alignItems="center"
               justifyContent="center"
+              mb="20px"
             >
               <Image
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
@@ -100,6 +100,7 @@ const Work = () => {
               display="flex"
               alignItems="center"
               justifyContent="center"
+              mb="20px"
             >
               <Image
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
@@ -117,6 +118,7 @@ const Work = () => {
               display="flex"
               alignItems="center"
               justifyContent="center"
+              mb="20px"
             >
               <Image
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
@@ -134,6 +136,7 @@ const Work = () => {
               display="flex"
               alignItems="center"
               justifyContent="center"
+              mb="20px"
             >
               <Image
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
@@ -151,6 +154,7 @@ const Work = () => {
               display="flex"
               alignItems="center"
               justifyContent="center"
+              mb="20px"
             >
               <Image
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg"
@@ -168,6 +172,7 @@ const Work = () => {
               display="flex"
               alignItems="center"
               justifyContent="center"
+              mb="20px"
             >
               <Image
                 id="material-ui"
@@ -186,6 +191,7 @@ const Work = () => {
               display="flex"
               alignItems="center"
               justifyContent="center"
+              mb="20px"
             >
               <Image
                 w="70%"
@@ -204,6 +210,7 @@ const Work = () => {
               display="flex"
               alignItems="center"
               justifyContent="center"
+              mb="20px"
             >
               <Image w="70%" src="/icons/nodejs-icon.svg" alt="nodejs" />
             </Box>
@@ -217,6 +224,21 @@ const Work = () => {
               display="flex"
               alignItems="center"
               justifyContent="center"
+              mb="20px"
+            >
+              <Image w="70%" src="/icons/typescript.svg" alt="typescript" />
+            </Box>
+            <Box
+              w={{ base: "55px", md: "85px" }}
+              h={{ base: "55px", md: "85px" }}
+              p={{ base: "5px", sm: "5px", md: "10px" }}
+              boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"}
+              borderRadius="50%"
+              transition="all 0.6s"
+              display="flex"
+              alignItems="center"
+              justifyContent="center"
+              mb="20px"
             >
               <Image
                 w="70%"
@@ -233,7 +255,7 @@ const Work = () => {
           >
             Key Responsibilities:
           </Text>
-          <Box w={{ base: "90%", sm: "80%", md: "70%", lg: "60%" }} m={"auto"}>
+          <Box w={{ base: "100%", sm: "80%", md: "70%", lg: "60%" }} m={"auto"}>
             <UnorderedList
               fontSize={{ base: "14px", sm: "15px", md: "16.5", lg: "17.5px" }}
               fontWeight={"500"}
@@ -247,6 +269,9 @@ const Work = () => {
                 Developing the reusable components which can decrease
                 development cycle and maintain consistency throughout the
                 application.
+              </ListItem>
+              <ListItem>
+                Developing the AI model and services on backend side.
               </ListItem>
             </UnorderedList>
           </Box>
