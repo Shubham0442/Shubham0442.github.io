@@ -70,7 +70,7 @@ const Projects = () => {
             </Text>
           </Box>
           <hr />
-          <Flex justifyContent={"space-around"} flexWrap={"wrap"} p={"10px"} >
+          <Flex justifyContent={"space-around"} flexWrap={"wrap"} p={"10px"}>
             <Image
               w={"25px"}
               src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
@@ -113,7 +113,7 @@ const Projects = () => {
             <Image w={"25px"} src="/icons/mongodb-icon-1.svg" alt="express" />
             <Image
               w={"25px"}
-              src="https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667"
+              src="/icons/github.svg"
               alt="githubb"
             />
           </Flex>
@@ -214,16 +214,12 @@ const Projects = () => {
             <Image
               w={"30px"}
               h={"20px"}
-               mt="2px"
+              mt="2px"
               id="chakraIcon"
               src="https://raw.githubusercontent.com/feguedi/cra-template-chakra-ui-base/HEAD/assets/logo-colored@2x.png"
               alt="chakraicon"
             />
-            <Image
-              w={"25px"}
-              src="https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667"
-              alt="githubb"
-            />
+            <Image w={"25px"} src="/icons/github.svg" alt="githubb" />
           </Flex>
           <hr />
           <Flex gap={"10px"} p={"10px"} justifyContent={"center"}>
@@ -317,16 +313,12 @@ const Projects = () => {
             <Image
               w={"30px"}
               h={"20px"}
-               mt="2px"
+              mt="2px"
               id="chakraIcon"
               src="https://raw.githubusercontent.com/feguedi/cra-template-chakra-ui-base/HEAD/assets/logo-colored@2x.png"
               alt="chakraicon"
             />
-            <Image
-              w={"25px"}
-              src="https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667"
-              alt="githubb"
-            />
+            <Image w={"25px"} alt="githubb" src="/icons/github.svg" />
           </Flex>
           <hr />
           <Flex gap={"10px"} p={"10px"} justifyContent={"center"}>
@@ -412,11 +404,7 @@ const Projects = () => {
               src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
               alt="jsicon"
             />
-            <Image
-              w={"25px"}
-              src="https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667"
-              alt="githubb"
-            />
+            <Image w={"25px"} src="/icons/github.svg" alt="githubb" />
             <Image
               w={"25px"}
               src="https://cdn-icons-png.flaticon.com/512/5968/5968672.png"
