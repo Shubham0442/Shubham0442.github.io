@@ -43,9 +43,10 @@ const Projects = () => {
             _hover={{ borderTopLeftRadius: "8px", borderTopRightRadius: "8px" }}
           >
             <Image
-              src="/sitePhotos/shoesformen.png"
+              src="/sitePhotos/shoes-for-men.png"
               alt="project"
               w={"100%"}
+              height={{ sm: "auto", md: "auto", lg: "285px" }}
               borderTopLeftRadius={"8px"}
               borderTopRightRadius={"8px"}
               objectFit={"contain"}
@@ -111,11 +112,7 @@ const Projects = () => {
               alt="express"
             />
             <Image w={"25px"} src="/icons/mongodb-icon-1.svg" alt="express" />
-            <Image
-              w={"25px"}
-              src="/icons/github.svg"
-              alt="githubb"
-            />
+            <Image w={"25px"} src="/icons/github.svg" alt="githubb" />
           </Flex>
           <hr />
           <Flex gap={"10px"} p={"10px"} justifyContent={"center"}>
@@ -158,9 +155,10 @@ const Projects = () => {
             _hover={{ borderTopLeftRadius: "8px", borderTopRightRadius: "8px" }}
           >
             <Image
-              src="/sitePhotos/2022-08-19.png"
+              src="/sitePhotos/foodie-goals.png"
               alt="project"
               w={"100%"}
+              height={{ sm: "auto", md: "auto", lg: "285px" }}
               borderTopLeftRadius={"8px"}
               borderTopRightRadius={"8px"}
               objectFit={"contain"}
@@ -176,11 +174,12 @@ const Projects = () => {
           </Box>
           <Box p={"10px"}>
             <Text fontSize={{ base: "15px", sm: "16.5px" }} fontWeight={"550"}>
-              IdeaKart-Clone
+              Foodie
             </Text>
             <Text fontSize={{ base: "10px", sm: "12px" }} fontWeight={"500"}>
-              Clone of the site Ideakart.com that gives an idea and platform to
-              buy books. Built with some of it's basic functionality,
+              A food delivery platform, with a wide range of restaurants,
+              cuisines, and dishes, all tailored to user preferences has with
+              user side and shop owner side functionalities, built
               collaboratively.
             </Text>
           </Box>
@@ -212,19 +211,26 @@ const Projects = () => {
               alt="pic"
             />
             <Image
+              mt="2px"
               w={"30px"}
               h={"20px"}
-              mt="2px"
               id="chakraIcon"
               src="https://raw.githubusercontent.com/feguedi/cra-template-chakra-ui-base/HEAD/assets/logo-colored@2x.png"
               alt="chakraicon"
             />
+            <Image w={"25px"} src="/icons/nodejs-icon.svg" alt="nodejs" />
+            <Image
+              w={"25px"}
+              src="https://www.vectorlogo.zone/logos/expressjs/expressjs-icon.svg"
+              alt="express"
+            />
+            <Image w={"25px"} src="/icons/mongodb-icon-1.svg" alt="express" />
             <Image w={"25px"} src="/icons/github.svg" alt="githubb" />
           </Flex>
           <hr />
           <Flex gap={"10px"} p={"10px"} justifyContent={"center"}>
             <a
-              href="https://ideakart-clone-rct101.netlify.app/"
+              href="https://foodie-goals.netlify.app/"
               target={"_blank"}
               rel="noreferrer"
             >
@@ -235,7 +241,7 @@ const Projects = () => {
               </Box>
             </a>
             <a
-              href="https://github.com/Shubham0442/ideakart-clone"
+              href="https://github.com/Bhavesh2302/quad-goals"
               target={"_blank"}
               rel="noreferrer"
             >
@@ -361,7 +367,7 @@ const Projects = () => {
             _hover={{ borderTopLeftRadius: "8px", borderTopRightRadius: "8px" }}
           >
             <Image
-              src="/sitePhotos/2022-08-18.png"
+              src="/sitePhotos/2022-08-19.png"
               alt="project"
               w={"100%"}
               borderTopLeftRadius={"8px"}
@@ -379,12 +385,12 @@ const Projects = () => {
           </Box>
           <Box p={"10px"}>
             <Text fontSize={{ base: "15px", sm: "16.5px" }} fontWeight={"550"}>
-              Max-fashion-Clone
+              IdeaKart-Clone
             </Text>
             <Text fontSize={{ base: "10px", sm: "12px" }} fontWeight={"500"}>
-              Clone of an e-commerce website maxfashion.in, which has wide range
-              of categories for shopping, built with some of its
-              functionalities, within a week, collaboratively.
+              Clone of the site Ideakart.com that gives an idea and platform to
+              buy books. Built with some of it's basic functionality,
+              collaboratively.
             </Text>
           </Box>
           <hr />
@@ -404,17 +410,30 @@ const Projects = () => {
               src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
               alt="jsicon"
             />
-            <Image w={"25px"} src="/icons/github.svg" alt="githubb" />
             <Image
               w={"25px"}
-              src="https://cdn-icons-png.flaticon.com/512/5968/5968672.png"
-              alt="bootstrap"
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
+              alt="pic"
             />
+            <Image
+              w={"25px"}
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg"
+              alt="pic"
+            />
+            <Image
+              w={"30px"}
+              h={"20px"}
+              mt="2px"
+              id="chakraIcon"
+              src="https://raw.githubusercontent.com/feguedi/cra-template-chakra-ui-base/HEAD/assets/logo-colored@2x.png"
+              alt="chakraicon"
+            />
+            <Image w={"25px"} src="/icons/github.svg" alt="githubb" />
           </Flex>
           <hr />
           <Flex gap={"10px"} p={"10px"} justifyContent={"center"}>
             <a
-              href="https://maxfashion-clonelc.netlify.app/index.html"
+              href="https://ideakart-clone-rct101.netlify.app/"
               target={"_blank"}
               rel="noreferrer"
             >
@@ -425,7 +444,7 @@ const Projects = () => {
               </Box>
             </a>
             <a
-              href="https://github.com/Shubham0442/max-fashion-clone"
+              href="https://github.com/Shubham0442/ideakart-clone"
               target={"_blank"}
               rel="noreferrer"
             >

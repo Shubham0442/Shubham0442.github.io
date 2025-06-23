@@ -20,7 +20,7 @@ function App() {
   const scrollRef = useRef("home");
 
   return (
-    <div className="App">
+    <div className="App" style={{ backgroundColor: "#e0e5e9" }}>
       <Navbar
         aboutRef={aboutRef}
         skillRef={skillRef}

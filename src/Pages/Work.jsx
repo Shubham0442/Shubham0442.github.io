@@ -1,282 +1,265 @@
 import {
   Box,
   Flex,
+  Heading,
   Image,
+  List,
+  ListItem,
   SimpleGrid,
-  Text,
-  UnorderedList,
-  ListItem
+  Text
 } from "@chakra-ui/react";
 import React from "react";
 
 const Work = () => {
+  const experience = [
+    {
+      company: "Openintervue",
+      role: "MERN Full Stack Developer",
+      location: "Bengaluru",
+      duration: "Apr 2024 – Present",
+      description: [
+        "Developed core modules like User Management, Analytics Dashboard, and Kanban Board using React, Redux, and Node.js.",
+        "Improved performance and maintainability by 15–20% by refactoring codebase using ES6 standards and reusable components.",
+        "Collaborated with cross-functional teams to deliver scalable, user-friendly features aligned with business goals.",
+        "Implemented authentication, REST APIs, and AWS deployments for production readiness."
+      ],
+      techStack: [
+        "React.js",
+        "Redux",
+        "Node.js",
+        "MongoDB",
+        "Tailwind CSS",
+        "TypeScript",
+        "Ant Design",
+        "Git",
+        "GitHub"
+      ]
+    },
+    {
+      company: "Codeacious Technology Pvt. Ltd.",
+      role: "Software Developer – Full Stack",
+      location: "Noida",
+      duration: "Nov 2022 – Nov 2023",
+      description: [
+        "Built Media Management and Editor components for internal CMS platforms.",
+        "Integrated GenAI services like Midjourney and Leonardo.ai in backend systems for creative automation.",
+        "Designed SEO-optimized screens to enhance content visibility and search performance.",
+        "Developed chatbot UI components for real-time user interaction using WebSockets."
+      ],
+      techStack: [
+        "React.js",
+        "Node.js",
+        "MongoDB",
+        "Express.js",
+        "Socket.io",
+        "Tailwind CSS",
+        "Material UI",
+        "Git",
+        "GitHub",
+        "Redux-Saga"
+      ]
+    }
+  ];
+
   return (
     <Box
       w={"100%"}
       m={"auto"}
       h="100%"
       bg={"#e0e5e9"}
-      mt={{ base: "430px", sm: "400px", md: "100px", lg: "50px" }}
+      mt={{ base: "430px", sm: "400px", md: "100px", lg: "40px" }}
     >
       <Text
         color={"#ff6263"}
         fontWeight={"660"}
         fontSize={"25px"}
-        mb={"10px"}
+        mb={"30px"}
         pt={"30px"}
       >
         Work
       </Text>
-      <Box
-        w={{ base: "90%", sm: "90%", md: "90%", lg: "75%" }}
+      <SimpleGrid
+        columns={[1, 1, 1, 2]}
+        w={{ base: "90%", sm: "90%", md: "90%", lg: "90%" }}
         m={"auto"}
-        textAlign="center"
+        gap={"40px"}
+        justifyContent={"center"}
+        mb={"40px"}
+        textAlign="left"
       >
-        <Box>
-          <Text
-            fontSize={{ base: "18px", sm: "18px", md: "21px", lg: "25px" }}
-            fontWeight={"700"}
+        {experience?.map((org) => (
+          <Box
+            w="100%"
+            bg="#FFF"
+            borderRadius="10px"
+            key={org?.role}
+            py="15px"
+            px="20px"
           >
-            Codeacious Technologies Pvt. Ltd., Noida (UP)
-          </Text>
-          <Flex flexWrap="wrap" justifyContent={"center"} alignItems="center">
+            <Heading
+              fontSize={"22px"}
+              fontWeight={"650"}
+              color={"#545454"}
+              mt={"20px"}
+            >
+              {org?.role}
+            </Heading>
+            <Flex alignItems="center" justifyContent="start" gap="10px">
+              <Heading
+                fontSize={"18px"}
+                fontWeight={"650"}
+                color={"#545454"}
+                mt={"20px"}
+                mb={"8px"}
+              >
+                {org?.company}
+              </Heading>
+              <Text
+                fontSize={"15px"}
+                fontWeight={"650"}
+                color={"#646464"}
+                mt={"20px"}
+                mb={"8px"}
+              >
+                |
+              </Text>
+              <Text
+                fontSize={"18px"}
+                fontWeight={"650"}
+                color={"#545454"}
+                mt={"20px"}
+                mb={"8px"}
+              >
+                {org?.duration}
+              </Text>
+            </Flex>
+            <List textAlign="left">
+              {org?.description?.map((para, index) => (
+                <ListItem
+                  key={para}
+                  fontSize={"13px"}
+                  fontWeight={"650"}
+                  color={"#646464"}
+                  mt={"20px"}
+                  mb={"2px"}
+                  display="flex"
+                  justifyContent="flex-start"
+                  gap="5px"
+                >
+                  <Text>{index + 1}.</Text>
+                  <Text>{para}</Text>
+                </ListItem>
+              ))}
+            </List>
             <Text
-              fontSize={{ base: "16px", sm: "16px", md: "18px", lg: "20px" }}
-              fontWeight={"500"}
+              fontSize={"15px"}
+              fontWeight={"650"}
+              color={"#646464"}
+              mt={"20px"}
+              mb={"8px"}
             >
-              Software Developer (Full Stack)
+              Tech Stack Used:
             </Text>
-            -
-            <Text
-              fontSize={{ base: "16px", sm: "16px", md: "18px", lg: "20px" }}
-              fontWeight={"500"}
-            >
-              Nov 2022 – Nov 2023
-            </Text>
-          </Flex>
-          <Text
-            mt="20px"
-            fontSize={{ base: "16px", sm: "16px", md: "18px", lg: "20px" }}
-            fontWeight={"700"}
-            textAlign="center"
-            color={"#ff6263"}
-          >
-            Tech-Stack used at work:
-          </Text>
-          <Flex
-            w={{ base: "90%", sm: "80%", md: "80%", lg: "75%" }}
-            m={"auto"}
-            flexWrap="wrap"
-            alignItems={"center"}
-            justifyContent={"center"}
-            mt="25px"
-            gap={{ base: "20px", sm: "25px", md: "30px", lg: "40px" }}
-          >
-            <Box
-              w={{ base: "60px", sm: "60px", md: "85px", lg: "95px" }}
-              h={{ base: "60px", sm: "60px", md: "85px", lg: "95px" }}
-              p={{ base: "5px", sm: "5px", md: "10px" }}
-              boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"}
-              borderRadius="50%"
-              transition="all 0.6s"
-              display="flex"
+            <Flex
+              w="100%"
+              h="auto"
               alignItems="center"
-              justifyContent="center"
-              mb="20px"
+              justifyContent="space-between"
+              mt="10px"
+              flexWrap="wrap"
+              gap="10px"
             >
               <Image
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
-                alt="htmlpic"
-                w="70%"
-              />
-            </Box>
-            <Box
-              w={{ base: "55px", md: "85px" }}
-              h={{ base: "55px", md: "85px" }}
-              p={{ base: "5px", sm: "5px", md: "10px" }}
-              boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"}
-              borderRadius="50%"
-              transition="all 0.6s"
-              display="flex"
-              alignItems="center"
-              justifyContent="center"
-              mb="20px"
-            >
-              <Image
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
-                alt="cssicon"
-                w="70%"
-              />
-            </Box>
-            <Box
-              w={{ base: "55px", md: "85px" }}
-              h={{ base: "55px", md: "85px" }}
-              p={{ base: "5px", sm: "5px", md: "10px" }}
-              boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"}
-              borderRadius="50%"
-              transition="all 0.6s"
-              display="flex"
-              alignItems="center"
-              justifyContent="center"
-              mb="20px"
-            >
-              <Image
+                w={{ base: "30px" }}
+                h={{ base: "30px" }}
+                _hover={{ transform: "scale(1.2)" }}
+                transition="all 0.6s"
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
-                alt="jsicon"
-                w="70%"
+                alt="pic"
               />
-            </Box>
-            <Box
-              w={{ base: "55px", md: "85px" }}
-              h={{ base: "55px", md: "85px" }}
-              p={{ base: "5px", sm: "5px", md: "10px" }}
-              boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"}
-              borderRadius="50%"
-              transition="all 0.6s"
-              display="flex"
-              alignItems="center"
-              justifyContent="center"
-              mb="20px"
-            >
               <Image
+                w={{ base: "30px" }}
+                h={{ base: "30px" }}
+                _hover={{ transform: "scale(1.2)" }}
+                transition="all 0.6s"
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
                 alt="pic"
-                w="70%"
               />
-            </Box>
-            <Box
-              w={{ base: "55px", md: "85px" }}
-              h={{ base: "55px", md: "85px" }}
-              p={{ base: "5px", sm: "5px", md: "10px" }}
-              boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"}
-              borderRadius="50%"
-              transition="all 0.6s"
-              display="flex"
-              alignItems="center"
-              justifyContent="center"
-              mb="20px"
-            >
               <Image
+                w={{ base: "30px" }}
+                h={{ base: "30px" }}
+                _hover={{ transform: "scale(1.2)" }}
+                transition="all 0.6s"
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg"
                 alt="pic"
-                w="70%"
               />
-            </Box>
-            <Box
-              w={{ base: "55px", md: "85px" }}
-              h={{ base: "55px", md: "85px" }}
-              p={{ base: "5px", sm: "5px", md: "10px" }}
-              boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"}
-              borderRadius="50%"
-              transition="all 0.6s"
-              display="flex"
-              alignItems="center"
-              justifyContent="center"
-              mb="20px"
-            >
               <Image
-                id="material-ui"
-                src="/icons/material-ui-1.svg"
+                w={{ base: "30px" }}
+                h={{ base: "30px" }}
+                _hover={{ transform: "scale(1.2)" }}
+                transition="all 0.6s"
+                src="/icons/github.svg"
+                alt="pic"
+              />
+              <Image
+                w={{ base: "30px" }}
+                h={{ base: "30px" }}
+                _hover={{ transform: "scale(1.2)" }}
+                transition="all 0.6s"
+                src="https://cdn.iconscout.com/icon/free/png-512/free-mongodb-5-1175140.png?f=webp&w=256"
+                alt="db"
+              />
+              <Image
+                w={{ base: "30px" }}
+                h={{ base: "30px" }}
+                _hover={{ transform: "scale(1.2)" }}
+                src="/material-ui.svg"
                 alt="material-ui"
-                w="60%"
               />
-            </Box>
-            <Box
-              w={{ base: "55px", md: "85px" }}
-              h={{ base: "55px", md: "85px" }}
-              p={{ base: "5px", sm: "5px", md: "10px" }}
-              boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"}
-              borderRadius="50%"
-              transition="all 0.6s ease-in-out"
-              display="flex"
-              alignItems="center"
-              justifyContent="center"
-              mb="20px"
-            >
               <Image
-                w="70%"
-                id="tailwind"
-                src="/tailwindcss-logo.svg"
+                w={{ base: "30px" }}
+                h={{ base: "30px" }}
+                _hover={{ transform: "scale(1.2)" }}
+                transition="all 0.6s"
+                src="https://cdn.iconscout.com/icon/free/png-512/free-tailwind-css-5285308-4406745.png?f=webp&w=256"
                 alt="tailwind"
               />
-            </Box>
-            <Box
-              w={{ base: "55px", md: "85px" }}
-              h={{ base: "55px", md: "85px" }}
-              p={{ base: "5px", sm: "5px", md: "10px" }}
-              boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"}
-              borderRadius="50%"
-              transition="all 0.6s"
-              display="flex"
-              alignItems="center"
-              justifyContent="center"
-              mb="20px"
-            >
-              <Image w="70%" src="/icons/nodejs-icon.svg" alt="nodejs" />
-            </Box>
-            <Box
-              w={{ base: "55px", md: "85px" }}
-              h={{ base: "55px", md: "85px" }}
-              p={{ base: "5px", sm: "5px", md: "10px" }}
-              boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"}
-              borderRadius="50%"
-              transition="all 0.6s"
-              display="flex"
-              alignItems="center"
-              justifyContent="center"
-              mb="20px"
-            >
-              <Image w="70%" src="/icons/typescript.svg" alt="typescript" />
-            </Box>
-            <Box
-              w={{ base: "55px", md: "85px" }}
-              h={{ base: "55px", md: "85px" }}
-              p={{ base: "5px", sm: "5px", md: "10px" }}
-              boxShadow={"rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"}
-              borderRadius="50%"
-              transition="all 0.6s"
-              display="flex"
-              alignItems="center"
-              justifyContent="center"
-              mb="20px"
-            >
               <Image
-                w="70%"
-                src="/icons/github.svg"
-                alt="githubb"
+                w={{ base: "30px" }}
+                h={{ base: "30px" }}
+                _hover={{ transform: "scale(1.2)" }}
+                transition="all 0.6s"
+                src={"/icons/typescript.svg"}
+                alt="ts"
               />
-            </Box>
-          </Flex>
-          <Text
-            fontSize={{ base: "16px", sm: "16px", md: "18px", lg: "20px" }}
-            fontWeight={"700"}
-            mt="20px"
-            color={"#ff6263"}
-          >
-            Key Responsibilities:
-          </Text>
-          <Box w={{ base: "100%", sm: "80%", md: "70%", lg: "60%" }} m={"auto"}>
-            <UnorderedList
-              fontSize={{ base: "14px", sm: "15px", md: "16.5", lg: "17.5px" }}
-              fontWeight={"500"}
-              textAlign="left"
-            >
-              <ListItem>
-                Developing the new features and project screens with optimized
-                code to boost performance.
-              </ListItem>
-              <ListItem>
-                Developing the reusable components which can decrease
-                development cycle and maintain consistency throughout the
-                application.
-              </ListItem>
-              <ListItem>
-                Developing the AI model and services on backend side.
-              </ListItem>
-            </UnorderedList>
+              <Image
+                w={{ base: "30px" }}
+                h={{ base: "30px" }}
+                _hover={{ transform: "scale(1.2)" }}
+                transition="all 0.6s"
+                src="https://www.svgrepo.com/show/303360/nodejs-logo.svg"
+                alt="node"
+              />
+              <Image
+                w={{ base: "30px" }}
+                h={{ base: "30px" }}
+                _hover={{ transform: "scale(1.2)" }}
+                transition="all 0.6s"
+                src="https://www.vectorlogo.zone/logos/expressjs/expressjs-icon.svg"
+                alt="express"
+              />
+              {org?.techStack?.includes("Redux-Saga") && (
+                <Image
+                  h="40px"
+                  _hover={{ transform: "scale(1.2)" }}
+                  src="/icons/redux-saga.svg"
+                  alt="redux-saga"
+                />
+              )}
+            </Flex>
           </Box>
-        </Box>
-      </Box>
+        ))}
+      </SimpleGrid>
     </Box>
   );
 };
