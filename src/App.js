@@ -36,7 +36,7 @@ function App() {
         <About />
       </div>
       <Box
-        h={{ base: "800px", sm: "700px", md: "750px", lg: "800px" }}
+        h={{ base: "800px", sm: "900px", md: "900px", lg: "800px" }}
         ref={workRef}
       >
         <Work />

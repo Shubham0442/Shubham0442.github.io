@@ -104,32 +104,19 @@ const Work = () => {
             >
               {org?.role}
             </Heading>
-            <Flex alignItems="center" justifyContent="start" gap="10px">
-              <Heading
-                fontSize={"18px"}
-                fontWeight={"650"}
-                color={"#545454"}
-                mt={"20px"}
-                mb={"8px"}
-              >
+            <Flex
+              alignItems="center"
+              justifyContent="start"
+              gap="10px"
+              flexWrap="wrap"
+            >
+              <Heading fontSize={"18px"} fontWeight={"650"} color={"#545454"}>
                 {org?.company}
               </Heading>
-              <Text
-                fontSize={"15px"}
-                fontWeight={"650"}
-                color={"#646464"}
-                mt={"20px"}
-                mb={"8px"}
-              >
+              <Text fontSize={"15px"} fontWeight={"650"} color={"#646464"}>
                 |
               </Text>
-              <Text
-                fontSize={"18px"}
-                fontWeight={"650"}
-                color={"#545454"}
-                mt={"20px"}
-                mb={"8px"}
-              >
+              <Text fontSize={"18px"} fontWeight={"650"} color={"#545454"}>
                 {org?.duration}
               </Text>
             </Flex>
@@ -164,7 +151,7 @@ const Work = () => {
               w="100%"
               h="auto"
               alignItems="center"
-              justifyContent="space-between"
+              justifyContent="center"
               mt="10px"
               flexWrap="wrap"
               gap="10px"
@@ -250,7 +237,9 @@ const Work = () => {
               />
               {org?.techStack?.includes("Redux-Saga") && (
                 <Image
-                  h="40px"
+                  mt="10px"
+                  w={{ base: "40px" }}
+                  h={{ base: "40px" }}
                   _hover={{ transform: "scale(1.2)" }}
                   src="/icons/redux-saga.svg"
                   alt="redux-saga"

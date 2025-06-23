@@ -268,7 +268,7 @@ const Skill = () => {
             w={{ base: "100%" }}
             _hover={{ transform: "scale(1.2)" }}
             transition="all 0.6s"
-            src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-dsc/events/logo-data-structure.png"
+            src="/icons/DSA-icon.png"
             alt="data-structure"
           />
         </Box>

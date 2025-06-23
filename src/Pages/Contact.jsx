@@ -81,7 +81,7 @@ const Contact = () => {
                   target={"_blank"}
                   rel="noreferrer"
                 >
-                  shubham-rakhonde-102964166
+                  /in/shubham-rakhonde-102964166
                 </a>
               </div>
             </div>
