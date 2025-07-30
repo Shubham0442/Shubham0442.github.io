@@ -16,7 +16,7 @@ const Work = () => {
       company: "Openintervue",
       role: "MERN Full Stack Developer",
       location: "Bengaluru",
-      duration: "Apr 2024 – Present",
+      duration: "Apr 2024 – July 2025",
       description: [
         "Developed core modules like User Management, Analytics Dashboard, and Kanban Board using React, Redux, and Node.js.",
         "Improved performance and maintainability by 15–20% by refactoring codebase using ES6 standards and reusable components.",
